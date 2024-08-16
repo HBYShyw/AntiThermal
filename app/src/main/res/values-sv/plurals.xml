@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d objekt kan optimeras</item>
+        <item quantity="other">%d objekt kan optimeras</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d objekt optimerat</item>
+        <item quantity="other">%d objekt optimerade</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimering tillgänglig</item>
+        <item quantity="other">%d optimeringar tillgängliga</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d har valts</item>
+        <item quantity="other">%d har valts</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ny notis</item>
+        <item quantity="other">%d nya notiser</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Stängs automatiskt av om telefonen inte detekterar en enhet att ladda inom %d minut.</item>
+        <item quantity="other">Stängs automatiskt av om telefonen inte detekterar en enhet att ladda inom %d minuter.</item>
+    </plurals>
+</resources>

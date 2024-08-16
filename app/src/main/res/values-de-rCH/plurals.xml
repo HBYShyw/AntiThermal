@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d Element kann optimiert werden</item>
+        <item quantity="other">%d Elemente können optimiert werden</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d Element optimiert</item>
+        <item quantity="other">%d Elemente optimiert</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d Optimierung verfügbar</item>
+        <item quantity="other">%d Optimierungen verfügbar</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d ausgewählt</item>
+        <item quantity="other">%d ausgewählt</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d neue Mitteilung</item>
+        <item quantity="other">%d neue Mitteilungen</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Schaltet sich automatisch aus, wenn dein Handy kein aufladbares Gerät innerhalb %d Minuten ortet.</item>
+        <item quantity="other">Schaltet sich automatisch aus, wenn dein Handy kein aufladbares Gerät innerhalb %d Minuten ortet.</item>
+    </plurals>
+</resources>

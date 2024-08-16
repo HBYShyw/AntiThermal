@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Stavke koje mogu biti optimizirane: %d</item>
+        <item quantity="few">Stavke koje mogu biti optimizirane: %d</item>
+        <item quantity="other">Stavke koje mogu biti optimizirane: %d</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">Optimiziranih stavki: %d</item>
+        <item quantity="few">Optimiziranih stavki: %d</item>
+        <item quantity="other">Optimiziranih stavki: %d</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Dostupnih optimizacija: %d</item>
+        <item quantity="few">Dostupnih optimizacija: %d</item>
+        <item quantity="other">Dostupnih optimizacija: %d</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Odabrano: %d</item>
+        <item quantity="few">Odabrano: %d</item>
+        <item quantity="other">Odabrano: %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">Novih obavijesti: %d</item>
+        <item quantity="other">Novih obavijesti: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Automatski se isključuje ako vaš telefon u roku od %d min. ne otkrije da se uređaj puni.</item>
+        <item quantity="few">Automatski se isključuje ako vaš telefon u roku od %d min ne otkrije da se uređaj puni.</item>
+        <item quantity="other">Automatski se isključuje ako vaš telefon u roku od %d min. ne otkrije da se uređaj puni.</item>
+    </plurals>
+</resources>

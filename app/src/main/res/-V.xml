@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080024_coui_btn_radio_off_to_on_animation__0">
+    <target
+        android:name="_R_G_STROKE"
+        android:animation="@drawable/res_0x7f080025_coui_btn_radio_off_to_on_animation__1"/>
+    <target
+        android:name="_R_G_STROKE_PATH"
+        android:animation="@drawable/res_0x7f080035_coui_btn_radio_off_to_on_animation__6"/>
+    <target
+        android:name="_R_G_OUT_CIRCLE_PATH"
+        android:animation="@drawable/res_0x7f080038_coui_btn_radio_off_to_on_animation__9"/>
+    <target
+        android:name="_R_G_OUT_CIRCLE"
+        android:animation="@drawable/res_0x7f080027_coui_btn_radio_off_to_on_animation__11"/>
+    <target
+        android:name="_R_G_INNER_CIRCLE"
+        android:animation="@drawable/res_0x7f08002c_coui_btn_radio_off_to_on_animation__16"/>
+    <target
+        android:name="_R_G_INNER_CIRCLE_PATH"
+        android:animation="@drawable/res_0x7f08002f_coui_btn_radio_off_to_on_animation__19"/>
+</animated-vector>

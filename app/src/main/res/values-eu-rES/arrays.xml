@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>% 90 eraino kargatutako azken aldia</item>
+        <item>Gaur</item>
+        <item>Atzo</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Egin tokia</item>
+        <item>Migratu SDra</item>
+        <item>Ulertu dut</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Gaur</item>
+        <item>Atzo</item>
+        <item>Herenegun</item>
+    </array>
+</resources>

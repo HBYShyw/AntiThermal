@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_numeric_keyboard_view_height">402dp</dimen>
+    <dimen name="coui_numeric_keyboard_view_size">86.14dp</dimen>
+    <dimen name="coui_numeric_keyboard_view_width">335dp</dimen>
+</resources>

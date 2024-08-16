@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>最後の充電レベル90%以上</item>
+        <item>本日</item>
+        <item>昨日</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>クリーンアップ</item>
+        <item>SD に移行</item>
+        <item>OK</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>本日</item>
+        <item>昨日</item>
+        <item>一昨日</item>
+    </array>
+</resources>

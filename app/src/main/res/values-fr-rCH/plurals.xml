@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Se désactive automatiquement si votre téléphone ne détecte aucun appareil à charger dans %d minute.</item>
+        <item quantity="other">Se désactive automatiquement si votre téléphone ne détecte aucun appareil à charger dans les %d minutes.</item>
+    </plurals>
+</resources>

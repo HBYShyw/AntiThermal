@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="89dp"
+    android:width="89dp"
+    android:viewportWidth="89"
+    android:viewportHeight="57">
+    <path
+        android:fillColor="@drawable/res_0x7f08019d_ic_bubble__0"
+        android:pathData="M41.5,5.5m-0,-1.5a1.5,1.5 0,1 1,-0 3a1.5,1.5 0,1 1,-0 -3"
+        android:fillAlpha="0.15"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08019e_ic_bubble__1"
+        android:pathData="M22.3431,12.3434m-0,-1.3434a1.3434,1.3434 0,1 1,-0 2.6868a1.3434,1.3434 0,1 1,-0 -2.6868"
+        android:fillAlpha="0.2"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a1_ic_bubble__2"
+        android:pathData="M1.3431,10.3434m-0,-1.3434a1.3434,1.3434 0,1 1,-0 2.6868a1.3434,1.3434 0,1 1,-0 -2.6868"
+        android:fillAlpha="0.25"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a2_ic_bubble__3"
+        android:pathData="M55.5,38.5m-0,-1.5a1.5,1.5 0,1 1,-0 3a1.5,1.5 0,1 1,-0 -3"
+        android:fillAlpha="0.4"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a3_ic_bubble__4"
+        android:pathData="M31,17m-0,-2a2,2 0,1 1,-0 4a2,2 0,1 1,-0 -4"
+        android:fillAlpha="0.4"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a4_ic_bubble__5"
+        android:pathData="M64.3431,12.3434m-0,-1.3434a1.3434,1.3434 135,1 1,-0 2.6868a1.3434,1.3434 0,1 1,-0 -2.6868"
+        android:fillAlpha="0.3"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a5_ic_bubble__6"
+        android:pathData="M87.3431,3.3434m-0,-1.3434a1.3434,1.3434 0,1 1,-0 2.6868a1.3434,1.3434 0,1 1,-0 -2.6868"
+        android:fillAlpha="0.3"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a6_ic_bubble__7"
+        android:pathData="M34.5,35.5m-0,-1.5a1.5,1.5 0,1 1,-0 3a1.5,1.5 0,1 1,-0 -3"
+        android:fillAlpha="0.15"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a7_ic_bubble__8"
+        android:pathData="M63.5,54.5m-0,-2.5a2.5,2.5 0,1 1,-0 5a2.5,2.5 0,1 1,-0 -5"
+        android:fillAlpha="0.1"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a8_ic_bubble__9"
+        android:pathData="M21,51m-0,-2a2,2 0,1 1,-0 4a2,2 0,1 1,-0 -4"
+        android:fillAlpha="0.3"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08019f_ic_bubble__10"
+        android:pathData="M62.3431,25.3434m-0,-1.3434a1.3434,1.3434 0,1 1,-0 2.6868a1.3434,1.3434 0,1 1,-0 -2.6868"
+        android:fillAlpha="0.1"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0801a0_ic_bubble__11"
+        android:pathData="M56.3431,1.3434m-0,-1.3434a1.3434,1.3434 0,1 1,-0 2.6868a1.3434,1.3434 0,1 1,-0 -2.6868"
+        android:fillAlpha="0.3"/>
+</vector>

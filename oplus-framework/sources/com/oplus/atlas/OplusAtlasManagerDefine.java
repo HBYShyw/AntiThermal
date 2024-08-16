@@ -1,0 +1,57 @@
+package com.oplus.atlas;
+
+/* loaded from: classes.dex */
+public class OplusAtlasManagerDefine {
+    public static final String ACTION_ATLAS_SERVICE_STARTED = "com.oplus.atlas.OplusAtlasService.STARTED";
+    public static final String ACTION_AUDIO_DEVICE_ROUTE_CHANGED = "android.media.ACTION_AUDIO_DEVICE_ROUTE_CHANGED";
+    public static final String ACTION_AUDIO_MODE_INFO = "android.media.ACTION_AUDIO_MODE_INFO";
+    public static final String ACTION_AUDIO_PLAYBACK_STATE_CHANGED = "android.media.ACTION_AUDIO_PLAYBACK_STATE_CHANGED";
+    public static final String ACTION_AUDIO_RECORD_INVALID = "android.media.ACTION_AUDIO_RECORD_INVALID";
+    public static final String ACTION_AUDIO_RECORD_INVALID_CONFLICT = "android.media.ACTION_AUDIO_RECORD_INVALID_CONFLICT";
+    public static final String ACTION_AUDIO_RECORD_START = "android.media.ACTION_AUDIO_RECORD_START";
+    public static final String ACTION_AUDIO_RECORD_STOP = "android.media.ACTION_AUDIO_RECORD_STOP";
+    public static final String ACTION_AUDIO_THREAD_INFO = "android.media.ACTION_AUDIO_THREAD_INFO";
+    public static final String BLUETOOTH_PACKAGE_NAME = "com.android.bluetooth";
+    public static final String CAMERA_PACKAGE_NAME = "com.oppo.camera";
+    public static final String EXTRA_DEVICE_STATE = "android.media.EXTRA_DEVICE_STATE";
+    public static final String EXTRA_DEVICE_TYPE = "android.media.EXTRA_DEVICE_TYPE";
+    public static final String EXTRA_MODE_INFO = "android.media.EXTRA_MODE_INFO";
+    public static final String EXTRA_RECORD_ACTION_FAILED_PID = "android.media.EXTRA_RECORD_ACTION_FAILED_PID";
+    public static final String EXTRA_RECORD_ACTION_PID = "android.media.EXTRA_RECORD_ACTION_PID";
+    public static final String EXTRA_RECORD_AND_PLAY_THREAD_INFO = "android.media.EXTRA_RECORD_AND_PLAY_THREAD_INFO";
+    public static final String EXTRA_RECORD_START_PACKAGE_TYPE = "android.media.EXTRA_RECORD_START_PACKAGE_TYPE";
+    public static final String KEY_AUDIO_DAEMON_MODE = "mode";
+    public static final String KEY_AUDIO_GAME_SCENE = "game-scene";
+    public static final String KEY_AUDIO_GET_ALLMODES = "allmodes";
+    public static final String KEY_AUDIO_GET_ALLSESSION = "allsessions";
+    public static final String KEY_AUDIO_GET_AUDIO_INFO = "get_audioinfos";
+    public static final String KEY_AUDIO_GET_DO_MUSIC_MUTE = "get_do_mute_music";
+    public static final String KEY_AUDIO_GET_EXEC_COMMAND_INFO = "get_exec_command_info";
+    public static final String KEY_AUDIO_GET_PLAYBACK_INFOS = "get_playback_infos";
+    public static final String KEY_AUDIO_GET_RECORD_FAILED_INFO = "get_record_failed_info";
+    public static final String KEY_AUDIO_GET_RECORD_INFOS = "get_record_infos";
+    public static final String KEY_AUDIO_GET_RECORD_STATE = "get_record_status";
+    public static final String KEY_AUDIO_GET_STREAMTYPE_ADJUST_REVISE = "streamtype_adjust_revise";
+    public static final int MSG_ATLASSERVICE_FEEDBACK = 256;
+    public static final int MSG_ATLASSERVICE_FEEDBACK_AP = 257;
+    public static final int MSG_ATLAS_FIRST = 0;
+    public static final int MSG_AUDIO_CHECK_APP_PLAY_ACTION = 22;
+    public static final int MSG_AUDIO_CHECK_APP_RECORD_ACTION = 23;
+    public static final int MSG_AUDIO_CHECK_APP_VOICECHAT_ACTION = 21;
+    public static final int MSG_AUDIO_CHECK_AUDIOSYSTEM = 14;
+    public static final int MSG_AUDIO_MMLIST_UPDATE = 13;
+    public static final int MSG_AUDIO_MUSIC_MUTE = 18;
+    public static final int MSG_AUDIO_MUSIC_UNMUTE = 19;
+    public static final int MSG_AUDIO_RECORD_START = 3;
+    public static final int MSG_AUDIO_RECORD_START_INVALID = 6;
+    public static final int MSG_AUDIO_RECORD_STOP = 4;
+    public static final int MSG_AUDIO_RECORD_STOP_UNKNOWN = 5;
+    public static final int MSG_AUDIO_SYNC_AUDIO_MODE = 15;
+    public static final int MSG_AUDIO_TRACK_CREATE = 1;
+    public static final int MSG_AUDIO_TRACK_DESTROY = 2;
+    public static final int MSG_DIAPLAY_FORGROUND = 41;
+    public static final int MSG_DISPLAY_DEFAULT = 40;
+    public static final int MSG_SET_AUDIO_MODE_NEED_CHECK = 17;
+    public static final int MSG_SET_AUDIO_MODE_ONLY_READ = 16;
+    public static final String TEL_PACKAGE_NAME = "com.android.server.telecom";
+}

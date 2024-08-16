@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Последняя зарядка на 90 % или выше</item>
+        <item>Сегодня</item>
+        <item>Вчера</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Освободить</item>
+        <item>Перенос на SD-карту</item>
+        <item>Хорошо</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Сегодня</item>
+        <item>Вчера</item>
+        <item>2 дн. назад</item>
+    </array>
+</resources>

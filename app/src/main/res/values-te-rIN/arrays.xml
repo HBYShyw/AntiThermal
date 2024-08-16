@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>90% లేదా అంతకన్నా ఎక్కువకి చివరి ఛార్జ్ జరిగింది</item>
+        <item>ఈ రోజు</item>
+        <item>నిన్న</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>క్లీన్ చేయండి</item>
+        <item>SDకి తరలించు</item>
+        <item>అర్థమైంది</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ఈ రోజు</item>
+        <item>నిన్న</item>
+        <item>2 రోజుల క్రితం</item>
+    </array>
+</resources>

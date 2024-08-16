@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <RelativeLayout
+        android:id="@+id/loading_view_layout"
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+        <com.coui.appcompat.progressbar.COUILoadingView
+            android:id="@+id/loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@null"
+            android:layout_centerHorizontal="true"
+            style="?attr/couiLoadingViewLargeStyle"/>
+        <TextView
+            android:textSize="@dimen/text_size_forteen_sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_safetylegal_activity_loading"
+            android:layout_below="@+id/loading_view"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.3"/>
+    </RelativeLayout>
+</LinearLayout>

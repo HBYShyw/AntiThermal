@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.COUIRecyclerView
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sipper_list"
+        android:paddingBottom="@dimen/coui_list_to_ex_bottom_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <include
+        android:id="@+id/sipper_status_layout"
+        layout="@layout/sipper_none_layout"/>
+</RelativeLayout>

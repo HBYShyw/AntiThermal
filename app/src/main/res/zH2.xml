@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="6dp">
+        <vector
+            android:height="20dp"
+            android:width="20dp"
+            android:viewportWidth="20"
+            android:viewportHeight="20">
+            <path
+                android:fillColor="?attr/couiColorControls"
+                android:pathData="M10,19C14.971,19 19,14.971 19,10C19,5.029 14.971,1 10,1C5.029,1 1,5.029 1,10C1,14.971 5.029,19 10,19ZM6.253,7.384L8.869,10L6.252,12.617L7.384,13.748L10,11.132L12.617,13.748L13.748,12.617L11.132,10L13.748,7.384L12.616,6.253L10,8.869L7.384,6.253L6.253,7.384Z"
+                android:fillType="evenOdd"/>
+        </vector>
+    </item>
+</layer-list>

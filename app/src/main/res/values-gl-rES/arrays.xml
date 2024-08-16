@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Última carga ata o 90 % ou superior</item>
+        <item>Hoxe</item>
+        <item>Onte</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Limpar</item>
+        <item>Migrar a SD</item>
+        <item>Entendido</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Hoxe</item>
+        <item>Onte</item>
+        <item>Hai 2 días</item>
+    </array>
+</resources>

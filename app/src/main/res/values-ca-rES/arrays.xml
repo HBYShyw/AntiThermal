@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Última càrrega al 90% o més</item>
+        <item>avui</item>
+        <item>ahir</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Allibera</item>
+        <item>Migra a la targeta SD</item>
+        <item>Entès</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Avui</item>
+        <item>Ahir</item>
+        <item>Abans-d\'ahir</item>
+    </array>
+</resources>

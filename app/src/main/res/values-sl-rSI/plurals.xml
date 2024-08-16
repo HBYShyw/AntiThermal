@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Optimizirate lahko %d element</item>
+        <item quantity="two">Optimizirate lahko %d elementa</item>
+        <item quantity="few">Optimizirate lahko %d elemente</item>
+        <item quantity="other">Optimizirate lahko %d elementov</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d element je bil optimiziran</item>
+        <item quantity="two">%d elementa sta bila optimizirana</item>
+        <item quantity="few">%d elementi so bili optimizirani</item>
+        <item quantity="other">%d elementov je bilo optimiziranih</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Na voljo je %d optimizacija</item>
+        <item quantity="two">Na voljo sta %d optimizaciji</item>
+        <item quantity="few">Na voljo so %d optimizacije</item>
+        <item quantity="other">Na voljo je %d optimizacij</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d izbran</item>
+        <item quantity="two">%d izbrana</item>
+        <item quantity="few">%d izbrani</item>
+        <item quantity="other">%d izbranih</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+        <item quantity="other">Št. novih obvestil: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Samodejno izklopi, če telefon ne zazna naprave za polnjenje v %d min.</item>
+        <item quantity="two">Izklopi se samodejno, če telefon v %d minutah ne zazna naprave za polnjenje.</item>
+        <item quantity="few">Izklopi se samodejno, če telefon v %d minutah ne zazna naprave za polnjenje.</item>
+        <item quantity="other">Samodejno se izklopi, če telefon ne zazna naprave za polnjenje v %d min.</item>
+    </plurals>
+</resources>

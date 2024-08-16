@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>ଶେଷ ଚାର୍ଜ୍ 90% କିମ୍ବା ଅଧିକ</item>
+        <item>ଆଜି</item>
+        <item>ଗତକାଲି</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ସଫା କରନ୍ତୁ</item>
+        <item>SD କୁ ସ୍ଥାନାନ୍ତର କରନ୍ତୁ</item>
+        <item>ବୁଝି ଗଲି</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ଆଜି</item>
+        <item>ଗତକାଲି</item>
+        <item>2 ଦିନ ପୂର୍ବରୁ</item>
+    </array>
+</resources>

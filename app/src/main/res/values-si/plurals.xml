@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d අයිතමයක් ප්‍රශස්ථ කළ හැකිවනු ඇත</item>
+        <item quantity="other">අයිතම %d ක් ප්‍රශස්ථ කළ හැකිවනු ඇත</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d අයිතමයක් ප්‍රශස්ථ කරන ලදී</item>
+        <item quantity="other">අයිතම %d ක් ප්‍රශස්ථ කරන ලදී</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ප්‍රශස්තකරණයක් තිබේ</item>
+        <item quantity="other">ප්‍රශස්තකරණ %d ක් තිබේ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d තෝරන ලදී</item>
+        <item quantity="other">%d තෝරන ලදී</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d නව දැනුම්දීමක්</item>
+        <item quantity="other">නව දැනුම්දීම් %d ක්</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">ඔබගේ දුරකථනය %d මිනිත්තුවක් තුළ ආරෝපණය කළ යුතු උපාංගයක් හඳුනා නොගතහොත් ස්වයංක්‍රීයව ක්‍රියා විරහිත වේ.</item>
+        <item quantity="other">ඔබගේ දුරකථනය මිනිත්තු %d ක් තුළ ආරෝපණය කළ යුතු උපාංගයක් හඳුනා නොගතහොත් ස්වයංක්‍රීයව ක්‍රියා විරහිත වේ.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="other">%d ခုကို အကောင်းဆုံး ချိန်ညှိနိုင်သည်</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="other">%d ခုကို အကောင်းဆုံးဖြစ်အောင် ပြုလုပ်ပြီးဖြစ်သည်</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="other">အကောင်းဆုံး ချိန်ညှိမှု %d ခု ရှိသည်</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="other">%d ခု ရွေးချယ်ထား</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">အသိပေးချက်အသစ်များ %d ခု</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="other">သင့်ဖုန်းသည် %d မိနစ်အတွင်း အားသွင်းစရာ စက်တစ်လုံးကို မတွေ့ပါက အလိုအလျောက် ပိတ်သွားပါမည်။</item>
+    </plurals>
+</resources>

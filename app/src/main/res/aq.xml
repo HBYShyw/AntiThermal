@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/support_preference_min_height"
+    android:paddingStart="@dimen/battery_ui_preference_margin_horizontal"
+    android:paddingEnd="@dimen/battery_ui_preference_margin_horizontal">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        style="@style/PreferenceContent">
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/support_preference_margin_between_line"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            style="?android:attr/textAppearanceSmall"/>
+    </RelativeLayout>
+    <ImageView
+        android:background="@drawable/coui_btn_next"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

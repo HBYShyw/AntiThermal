@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/couiColorPressBackground"
+    android:radius="@dimen/coui_snackbar_menu_bg_radius"/>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d öğe optimize edilebilir</item>
+        <item quantity="other">%d öğe optimize edilebilir</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d öğe optimize edildi</item>
+        <item quantity="other">%d öğe optimize edildi</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimizasyon mevcut</item>
+        <item quantity="other">%d optimizasyon mevcut</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d öğe seçildi</item>
+        <item quantity="other">%d öğe seçildi</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Telefonunuz %d dakika içinde bir şarj cihazına bağlanmazsa otomatik olarak kapanır.</item>
+        <item quantity="other">Telefonunuz %d dakika içinde bir şarj cihazına bağlanmazsa otomatik olarak kapanır.</item>
+    </plurals>
+</resources>

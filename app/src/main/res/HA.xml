@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/battery_ui_optimization_more_settings_new">
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:title="@string/high_performance_mode"
+            android:key="high_performance_switch_in_more"
+            android:summary="@string/high_performance_summary_new"
+            app:isPreferenceVisible="false"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/performance_mode_title"
+            android:key="performance_mode_in_more"
+            app:isPreferenceVisible="false"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/power_consumption_optimization_title"
+            android:key="power_consumption_optimization"
+            android:summary="@string/power_consumption_optimization_text"/>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:persistent="false"
+            android:title="@string/intelligent_deep_sleep_mode_tiltle"
+            android:key="intelligent_deep_sleep_mode"
+            android:summary="@string/battery_ui_optimization_intelligent_deep_sleep_mode_summary_new"
+            android:defaultValue="false"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/intelligent_sleep_mode"
+            android:key="intelligent_rm_sleep_mode"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/app_quick_freeze_pref_titile"
+            android:key="app_freeze_pref"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/screen_save_title"
+            android:key="screen_save_preference"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/power_control_title"
+            android:key="power_control_pref"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

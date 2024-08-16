@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Có thể tối ưu hóa %d mục</item>
+        <item quantity="other">Có thể tối ưu hóa %d mục</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">Đã tối ưu hóa %d mục</item>
+        <item quantity="other">Đã tối ưu hóa %d mục</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Có %d quy trình tối ưu hóa</item>
+        <item quantity="other">Có %d quy trình tối ưu hóa</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Đã chọn %d</item>
+        <item quantity="other">Đã chọn %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Tự động tắt nếu điện thoại của bạn không phát hiện thấy thiết bị cần sạc trong %d phút.</item>
+        <item quantity="other">Tự động tắt nếu điện thoại của bạn không phát hiện thấy thiết bị cần sạc trong %d phút.</item>
+    </plurals>
+</resources>

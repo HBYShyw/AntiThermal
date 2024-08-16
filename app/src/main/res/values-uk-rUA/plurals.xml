@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d елемент можна оптимізувати</item>
+        <item quantity="few">%d елементи можна оптимізувати</item>
+        <item quantity="many">%d елементів можна оптимізувати</item>
+        <item quantity="other">%d елемента можна оптимізувати</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d елемент оптимізовано</item>
+        <item quantity="few">%d елементи оптимізовано</item>
+        <item quantity="many">%d елементів оптимізовано</item>
+        <item quantity="other">%d елемента оптимізовано</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Доступно оптимізацій: %d</item>
+        <item quantity="few">Доступно оптимізацій: %d</item>
+        <item quantity="many">Доступно оптимізацій: %d</item>
+        <item quantity="other">Доступно оптимізацій: %d</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Вибрано %d</item>
+        <item quantity="few">Вибрано %d</item>
+        <item quantity="many">Вибрано %d</item>
+        <item quantity="other">Вибрано %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">Нових сповіщень: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Автоматично вимикати, якщо телефон не знайде пристрій для заряджання протягом %d хвилини.</item>
+        <item quantity="few">Автоматично вимикати, якщо телефон не знайде пристрій для заряджання протягом %d хвилин.</item>
+        <item quantity="many">Автоматично вимикати, якщо телефон не знайде пристрій для заряджання протягом %d хвилин.</item>
+        <item quantity="other">Автоматично вимикати, якщо телефон не знайде пристрій для заряджання протягом %d хв.</item>
+    </plurals>
+</resources>

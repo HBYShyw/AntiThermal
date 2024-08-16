@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>সর্বশেষ চার্জ ৯০% বা অধিক</item>
+        <item>আজ</item>
+        <item>গতকাল</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>পরিষ্কার করুন</item>
+        <item>এসডি-তে মাইগ্রেট করুন</item>
+        <item>বুঝতে পেরেছি</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>আজ</item>
+        <item>গতকাল</item>
+        <item>গত পরশু</item>
+    </array>
+</resources>

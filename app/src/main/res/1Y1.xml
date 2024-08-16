@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/on"
+        android:drawable="@drawable/coui_plane_arrow_expanded"
+        app:supportExpanded="true"/>
+    <item
+        android:id="@+id/off"
+        android:drawable="@drawable/coui_plane_arrow_collapsed"
+        app:supportExpanded="false"/>
+    <transition
+        android:drawable="@drawable/coui_plane_arrow_collapsed_anim"
+        android:toId="@+id/off"
+        android:fromId="@+id/on"/>
+    <transition
+        android:drawable="@drawable/coui_plane_arrow_expanded_anim"
+        android:toId="@+id/on"
+        android:fromId="@+id/off"/>
+</animated-selector>

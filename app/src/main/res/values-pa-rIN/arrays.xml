@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>90% ਜਾਂ ਇਸ ਤੋਂ ਵੱਧ ਲਈ ਆਖਰੀ ਚਾਰਜ</item>
+        <item>ਅੱਜ</item>
+        <item>ਬੀਤਿਆ ਕੱਲ੍ਹ</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ਪੂਰਾ ਸਾਫ ਕਰੋ</item>
+        <item>SD \'ਤੇ ਮਾਈਗ੍ਰੇਟ ਕਰੋ</item>
+        <item>ਸਮਝ ਗਏ</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ਅੱਜ</item>
+        <item>ਬੀਤੀਆ ਕੱਲ੍ਹ</item>
+        <item>2 ਦਿਨ ਪਹਿਲਾਂ</item>
+    </array>
+</resources>

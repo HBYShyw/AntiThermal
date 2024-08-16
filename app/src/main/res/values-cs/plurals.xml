@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Lze optimalizovat %d položku</item>
+        <item quantity="few">Lze optimalizovat %d položky</item>
+        <item quantity="many">Lze optimalizovat %d položek</item>
+        <item quantity="other">Lze optimalizovat %d položek</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">Optimalizována %d položka</item>
+        <item quantity="few">%d položky optimalizovány</item>
+        <item quantity="many">%d položek optimalizováno</item>
+        <item quantity="other">%d položek optimalizováno</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimalizace k dispozici</item>
+        <item quantity="few">%d optimalizace k dispozici</item>
+        <item quantity="many">%d optimalizací k dispozici</item>
+        <item quantity="other">%d optimalizací k dispozici</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+        <item quantity="other">%d nových oznámení</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Vybrána %d položka</item>
+        <item quantity="few">Vybrány %d položky</item>
+        <item quantity="many">Vybráno %d položek</item>
+        <item quantity="other">Vybráno %d položek</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nových oznámení</item>
+        <item quantity="other">Nových oznámení: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Automaticky se vypíná, pokud váš telefon během %d minuty nerozpozná žádné zařízení k nabíjení.</item>
+        <item quantity="few">Automaticky se vypne, pokud váš telefon během %d minut nerozpozná žádné zařízení k nabíjení.</item>
+        <item quantity="many">Automaticky se vypne, pokud váš telefon během %d minut nerozpozná žádné zařízení k nabíjení.</item>
+        <item quantity="other">Automaticky se vypíná, pokud váš telefon během %d minut nerozpozná žádné zařízení k nabíjení.</item>
+    </plurals>
+</resources>

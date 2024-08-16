@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d ಐಟಂ ಅನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಬಹುದಾಗಿದೆ</item>
+        <item quantity="other">%d ಐಟಂಗಳನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಬಹುದಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d ಐಟಂ ಅನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ಐಟಂಗಳನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ಆಪ್ಟಿಮೈಸೇಶನ್ ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d ಅನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%d ಅನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆ</item>
+        <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">ನಿಮ್ಮ ಫೋನ್ %d ನಿಮಿಷದಲ್ಲಿ ಚಾರ್ಜ್ ಮಾಡಲು ಸಾಧನವನ್ನು ಪತ್ತೆ ಮಾಡದಿದ್ದರೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಆಗುತ್ತದೆ.</item>
+        <item quantity="other">ನಿಮ್ಮ ಫೋನ್ %d ನಿಮಿಷಗಳಲ್ಲಿ ಚಾರ್ಜ್ ಮಾಡಲು ಸಾಧನವನ್ನು ಪತ್ತೆ ಮಾಡದಿದ್ದರೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಆಗುತ್ತದೆ.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M10,5L10,19M4,18.3C4,18.4857 4,19 4,19C4,19 4.5,19 4.8889,19L16.4444,19L19,19C19.5523,19 20,18.5523 20,18L20,8.8255L20,6C20,5.4477 19.5523,5 19,5L4.8889,5C4.6531,5 4.4271,5.0738 4.2604,5.205C4.0936,5.3363 4,5.5143 4,5.7L4,18.3Z"
+        android:strokeColor="@color/coui_pane_icon_fill_color"
+        android:strokeWidth="1.6"
+        android:strokeAlpha="0.85"/>
+</vector>

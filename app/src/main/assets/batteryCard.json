@@ -1,0 +1,110 @@
+{
+  "type": "constraint",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "id": "parent1",
+  "package": "com.oplus.battery",
+  "background": "@color/battery_card_background",
+  "forceDarkAllowed" : false,
+  "onClick": [
+    {
+      "type": "activity",
+      "packageName": "com.oplus.battery",
+      "action": "com.oplus.action.powermanager",
+      "params": {
+        "reason": "battery_card"
+      }
+    }
+  ],
+  "child": [
+    {
+      "type": "constraint",
+      "id": "parent3",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "background": "@drawable/ic_card_charging",
+
+      "layout_constraintBottom_toBottomOf": "parent"
+    },
+    {
+      "type": "lottie",
+      "id": "bubble",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "asset": "bubble.json",
+      "loop": true
+    },
+    {
+      "type": "constraint",
+      "id": "parent2",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "layout_constraintBottom_toBottomOf": "parent",
+
+      "child": [
+        {
+          "type": "constraint",
+          "id": "filling_view1",
+          "layout_constraintVertical_weight": "58",
+          "layout_width": "match_parent",
+          "layout_height": "0",
+          "background": "@color/battery_card_background",
+          "layout_constraintTop_toTopOf": "parent",
+          "layout_constraintBottom_toTopOf": "filling_view2"
+        },
+        {
+          "type": "constraint",
+          "id": "filling_view2",
+          "layout_constraintVertical_weight": "42",
+          "layout_width": "match_parent",
+          "layout_height": "0",
+          "layout_constraintBottom_toBottomOf": "parent",
+          "layout_constraintTop_toBottomOf": "filling_view1"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "batteryLevel",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_marginTop": "16dp",
+      "layout_marginStart": "16dp",
+      "text": "42",
+      "textSize": "42dp",
+      "textfontweight": 500,
+      "textColor": "@color/battery_card_text_level"
+    },
+    {
+      "type": "text",
+      "id": "percent",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "layout_constraintBottom_toBottomOf": "batteryLevel",
+      "layout_constraintStart_toEndOf": "batteryLevel",
+      "layout_marginBottom": "6.5dp",
+      "text": "%",
+      "textSize": "20dp",
+      "textfontweight": 500,
+      "includeFontPadding": "false",
+      "textColor": "@color/battery_card_text_level"
+    },
+    {
+      "type": "text",
+      "id": "batterystatus",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "layout_constraintTop_toBottomOf": "batteryLevel",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_marginTop": "-4dp",
+      "layout_marginStart": "16dp",
+      "layout_marginEnd": "16dp",
+      "textSize": "12dp",
+      "textColor": "@color/battery_card_text_time",
+      "textStyle": "normal",
+      "maxLines": 2
+    }
+  ]
+}

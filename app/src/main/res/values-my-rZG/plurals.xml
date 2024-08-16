@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">သင့္ဖုန္းသည္ %d မိနစ္အတြင္း အားသြင္းစရာ စက္တစ္လံုးကို မေတြ႔ပါက အလိုအေလ်ာက္ ပိတ္သြားပါမည္။</item>
+        <item quantity="other">သင့္ဖုန္းသည္ %d မိနစ္အတြင္း အားသြင္းစရာ စက္တစ္လံုးကို မေတြ႔ပါက အလိုအေလ်ာက္ ပိတ္သြားပါမည္။</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d kohde voidaan optimoida</item>
+        <item quantity="other">%d kohdetta voidaan optimoida</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d kohde optimoitu</item>
+        <item quantity="other">%d kohdetta optimoitu</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimointi käytettävissä</item>
+        <item quantity="other">%d optimointia käytettävissä</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d valittu</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Sammuu automaattisesti, jos puhelin ei tunnista ladattavaa laitetta %d minuutin kuluessa.</item>
+        <item quantity="other">Sammuu automaattisesti, jos puhelin ei tunnista ladattavaa laitetta %d minuutin kuluessa.</item>
+    </plurals>
+</resources>

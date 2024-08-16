@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.coui.appcompat.cardlist.COUICardListSelectedItemLayout
+        android:orientation="vertical"
+        android:id="@+id/single_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/edittext_container"
+                android:paddingBottom="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-8dp"/>
+            <TextView
+                android:textSize="12sp"
+                android:textColor="?attr/couiColorHintNeutral"
+                android:layout_gravity="end|bottom"
+                android:id="@+id/input_count"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:paddingEnd="4dp"/>
+        </FrameLayout>
+    </com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

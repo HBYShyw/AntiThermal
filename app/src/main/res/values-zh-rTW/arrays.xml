@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>上次充電到 90% 以上</item>
+        <item>今天</item>
+        <item>昨天</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>前往清理</item>
+        <item>轉移到 SD 卡</item>
+        <item>知道了</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>今天</item>
+        <item>昨天</item>
+        <item>前天</item>
+    </array>
+</resources>

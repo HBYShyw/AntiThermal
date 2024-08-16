@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Utolsó töltés 90%-ra vagy efölé</item>
+        <item>Ma</item>
+        <item>Tegnap</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Tisztítás</item>
+        <item>Áttelepítés SD-kártyára</item>
+        <item>Értem</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Ma</item>
+        <item>Tegnap</item>
+        <item>2 nappal ezelőtt</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_larger_btn_width">344dp</dimen>
+    <dimen name="coui_medium_btn_width">280dp</dimen>
+    <dimen name="coui_search_view_padding_end_in_toolbar">40dp</dimen>
+    <dimen name="coui_search_view_padding_end_in_toolbar_with_navigation">40dp</dimen>
+    <dimen name="coui_search_view_padding_start_in_toolbar">40dp</dimen>
+    <dimen name="coui_search_view_padding_start_in_toolbar_with_navigation">72dp</dimen>
+    <dimen name="layout_grid_gutter">12dp</dimen>
+    <dimen name="layout_grid_margin_large">40dp</dimen>
+    <dimen name="layout_grid_margin_small">40dp</dimen>
+    <dimen name="responsive_ui_extend_hierarchy_parent_width">360dp</dimen>
+</resources>

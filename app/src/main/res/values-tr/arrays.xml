@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>%90 veya üzerine son şarj</item>
+        <item>Bugün</item>
+        <item>Dün</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Temizle</item>
+        <item>SD\'ye taşı</item>
+        <item>Anladım</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Bugün</item>
+        <item>Dün</item>
+        <item>2 gün önce</item>
+    </array>
+</resources>

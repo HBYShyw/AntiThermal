@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d στοιχείο μπορεί να βελτιστοποιηθεί</item>
+        <item quantity="other">%d στοιχεία μπορούν να βελτιστοποιηθούν</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d στοιχείο βελτιστοποιήθηκε</item>
+        <item quantity="other">%d στοιχεία βελτιστοποιήθηκαν</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d βελτιστοποίηση διαθέσιμη</item>
+        <item quantity="other">%d βελτιστοποιήσεις διαθέσιμες</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Επιλέχθηκε %d</item>
+        <item quantity="other">Επιλέχθηκαν %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d νέα γνωστοποίηση</item>
+        <item quantity="other">%d νέες γνωστοποιήσεις</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Απενεργοποιείται αυτόματα εάν το τηλέφωνό σας δεν ανιχνεύσει κάποια συσκευή προς φόρτιση εντός %d λεπτού.</item>
+        <item quantity="other">Απενεργοποιείται αυτόματα εάν το τηλέφωνό σας δεν ανιχνεύσει κάποια συσκευή προς φόρτιση εντός %d λεπτών.</item>
+    </plurals>
+</resources>

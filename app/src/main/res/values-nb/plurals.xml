@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d element kan optimaliseres</item>
+        <item quantity="other">%d elementer kan optimaliseres</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d element ble optimalisert</item>
+        <item quantity="other">%d elementer ble optimalisert</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimalisering tilgjengelig</item>
+        <item quantity="other">%d optimaliseringer tilgjengelige</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d valgt</item>
+        <item quantity="other">%d valgt</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Slår automatisk av hvis telefonen ikke oppdager en enhet å lagre innen %d minutt.</item>
+        <item quantity="other">Slår automatisk av hvis telefonen ikke oppdager en enhet å lagre innen %d minutter.</item>
+    </plurals>
+</resources>

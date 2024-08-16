@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>ေနာက္ဆံုး အားသြင္းမႈ 90% သို႔မဟုတ္ ယင္းအထက္</item>
+        <item>ယေန႔</item>
+        <item>မေန႔က</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ရွင္းလင္းရန္</item>
+        <item>SD ကတ္သို႔ ေရႊ႕ရန္</item>
+        <item>ရပါၿပီ</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ယေန႔</item>
+        <item>မေန႔က</item>
+        <item>လြန္ခဲ့ေသာ 2 ရက္က</item>
+    </array>
+</resources>

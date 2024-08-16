@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>上次充电到90%以上</item>
+        <item>今天</item>
+        <item>昨天</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>前往清理</item>
+        <item>转移到 SD 卡</item>
+        <item>知道了</item>
+    </array>
+    <array name="smart_long_charge_protection_arrays">
+        <item>@string/smart_long_charge_protection_notification_choice_close</item>
+        <item>@string/smart_long_charge_protection_notification_choice_night</item>
+        <item>@string/smart_long_charge_protection_notification_choice_day</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>今天</item>
+        <item>昨天</item>
+        <item>前天</item>
+    </array>
+</resources>

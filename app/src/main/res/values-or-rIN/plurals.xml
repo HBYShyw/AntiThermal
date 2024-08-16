@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d ଆଇଟମ୍ ଅପ୍ଟିମାଇଜ୍‌ କରାଯାଇପାରିବ</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ଅପ୍ଟିମାଇଜ୍‌ କରାଯାଇପାରିବ</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d ଆଇଟମ୍ ଅପ୍ଟିମାଇଜ୍‌ କରାହୋଇଛି</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ଅପ୍ଟିମାଇଜ୍ କରାହୋଇଛି</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ଅପ୍ଟିମାଇଜେସନ୍ ଉପଲବ୍ଧ</item>
+        <item quantity="other">%d ଟା ଅପ୍ଟିମାଇଜେସନ୍ ଉପଲବ୍ଧ</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d ଚୟନିତ</item>
+        <item quantity="other">%d ଟା ଚୟନିତ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ନୂତନ ବିଜ୍ଞପ୍ତି</item>
+        <item quantity="other">%d ନୂତନ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">%d ମିନିଟ୍ ମଧ୍ୟରେ ଆପଣଙ୍କ ଫୋନ୍ ଟି ଚାର୍ଜ୍ ହେବାକୁ ଏକ ଡିଭାଇସ୍ ଠାବ ନ କରିଲେ ସ୍ଵତଃସ୍ପୃତଭାବରେ ଅଫ୍ ହୋଇଯିବ।</item>
+        <item quantity="other">%d ମିନିଟ୍ ମଧ୍ୟରେ ଆପଣଙ୍କ ଫୋନ୍ ଟି ଚାର୍ଜ୍ ହେବାକୁ ଏକ ଡିଭାଇସ୍ ଠାବ ନ କରିଲେ ସ୍ଵତଃସ୍ପୃତଭାବରେ ଅଫ୍ ହୋଇଯିବ।</item>
+    </plurals>
+</resources>

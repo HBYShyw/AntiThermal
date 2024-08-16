@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d elementas gali būti optimizuotas</item>
+        <item quantity="few">%d elementai gali būti optimizuoti</item>
+        <item quantity="many">%d elemento gali būti optimizuota</item>
+        <item quantity="other">%d elementų gali būti optimizuota</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d optimizuotas elementas</item>
+        <item quantity="few">%d optimizuoti elementai</item>
+        <item quantity="many">%d optimizuoto elemento</item>
+        <item quantity="other">%d optimizuotų elementų</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimizavimas prieinamas</item>
+        <item quantity="few">%d optimizavimai prieinami</item>
+        <item quantity="many">%d optimizavimai prieinami</item>
+        <item quantity="other">%d optimizavimai prieinami</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Pasirinkta: %d</item>
+        <item quantity="few">Pasirinkta: %d</item>
+        <item quantity="many">Pasirinkta: %d</item>
+        <item quantity="other">Pasirinkta: %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">Naujų pranešimų: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Automatiškai išsijungia, jei telefonas neaptinka įkraunamo įrenginio per %d min.</item>
+        <item quantity="few">Išjungiama automatiškai, jei telefonas neaptinka įkraunamo įrenginio per %d min.</item>
+        <item quantity="many">Išjungiama automatiškai, jei telefonas neaptinka įkraunamo įrenginio per %d min.</item>
+        <item quantity="other">Automatiškai išsijungia, jei telefonas neaptinka įkraunamo įrenginio per %d min.</item>
+    </plurals>
+</resources>

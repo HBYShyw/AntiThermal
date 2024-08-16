@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Sidste opladning op til 90 % eller derover</item>
+        <item>I dag</item>
+        <item>I går</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Ryd op</item>
+        <item>Migrer til SD</item>
+        <item>Forstået</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>I dag</item>
+        <item>I går</item>
+        <item>I forgårs</item>
+    </array>
+</resources>

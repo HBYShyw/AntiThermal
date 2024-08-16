@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:key="performance_mode"
+        app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIMarkPreference
+            android:title="@string/high_performance_mode"
+            android:selectable="true"
+            android:key="high_performance_mode"
+            android:summary="@string/high_performance_summary_new"/>
+        <com.coui.appcompat.preference.COUIMarkPreference
+            android:title="@string/performance_smart_mode_title"
+            android:selectable="true"
+            android:key="intelligent_performance_mode"
+            android:summary="@string/performance_smart_mode_summary"/>
+        <com.coui.appcompat.preference.COUIMarkPreference
+            android:title="@string/performance_none_mode_title"
+            android:selectable="true"
+            android:key="no_performance_mode"
+            android:summary="@string/performance_none_mode_summary"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

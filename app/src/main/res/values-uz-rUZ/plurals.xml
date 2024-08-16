@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d ta elementni optimallash mumkin</item>
+        <item quantity="other">%d ta elementni optimallash mumkin</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d ta element optimallandi</item>
+        <item quantity="other">%d ta element optimallandi</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ta optimizatsiya mavjud</item>
+        <item quantity="other">%d ta optimizatsiya mavjud</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Tanlandi: %d</item>
+        <item quantity="other">Tanlandi: %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Agar telefoningiz %d daqiqa ichida zaryad olish uchun biror qurilmani topmasa, avtomatik ravishda o‘chadi.</item>
+        <item quantity="other">Agar telefoningiz %d daqiqa ichida zaryad olish uchun biror qurilmani topmasa, avtomatik ravishda o‘chadi.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>90% 이상으로 최근 충전</item>
+        <item>오늘</item>
+        <item>어제</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>정리</item>
+        <item>SD로 마이그레이션</item>
+        <item>확인</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>오늘</item>
+        <item>어제</item>
+        <item>엊그제</item>
+    </array>
+</resources>

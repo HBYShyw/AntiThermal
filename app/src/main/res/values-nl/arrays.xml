@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Laatste oplaadbeurt tot 90% of hoger</item>
+        <item>Vandaag</item>
+        <item>Gisteren</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Opschonen</item>
+        <item>Migreren naar SD</item>
+        <item>Begrepen</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Vandaag</item>
+        <item>Gisteren</item>
+        <item>Eergisteren</item>
+    </array>
+</resources>

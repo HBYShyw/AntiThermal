@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="coui_back_arrow_normal"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="?attr/couiColorPrimaryNeutral"
+        android:pathData="M9.64174 5.30952L3.51674 11.4345C3.20432 11.7469 3.20432 12.2535 3.51674 12.5659L9.64174 18.6909L10.7731 17.5595L6.01379 12.8002H20.7074V11.2002H6.01379L10.7731 6.44089L9.64174 5.30952Z"
+        android:fillType="evenOdd"/>
+</vector>

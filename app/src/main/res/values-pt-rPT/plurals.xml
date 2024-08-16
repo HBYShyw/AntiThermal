@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d item pode ser otimizado</item>
+        <item quantity="other">%d itens podem ser otimizados</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d item otimizado</item>
+        <item quantity="other">%d itens otimizados</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d otimização disponível</item>
+        <item quantity="other">%d otimizações disponíveis</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d selecionada</item>
+        <item quantity="other">%d selecionadas</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Desliga-se automaticamente se o seu telefone não detetar um dispositivo para carregar dentro de %d minuto.</item>
+        <item quantity="other">Desliga-se automaticamente se o telefone não detetar um dispositivo para carregar dentro de %d minutos.</item>
+    </plurals>
+</resources>

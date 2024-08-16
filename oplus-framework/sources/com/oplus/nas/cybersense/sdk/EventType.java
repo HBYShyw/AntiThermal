@@ -1,0 +1,55 @@
+package com.oplus.nas.cybersense.sdk;
+
+/* loaded from: classes.dex */
+public class EventType {
+    public static final String BUNDLE_KEY_CAPABILITY = "cap";
+    public static final String BUNDLE_KEY_RESIDENCE_FENCE_INFO = "residenceFenceInfo";
+    public static final String BUNDLE_KEY_RESIDENCE_LOCATION_RESULT = "residenceLocRlt";
+    public static final String BUNDLE_KEY_RESIDENCE_LOC_STATE = "residenceLocSt";
+    public static final String BUNDLE_KEY_RESIDENCE_SPACE_INFO = "residenceSpaceInfo";
+    public static final String BUNDLE_KEY_RESULT = "result";
+    public static final String BUNDLE_KEY_STATE = "state";
+    public static final int EVENT_DATA_ADD_UPDATE = 1;
+    public static final int EVENT_DATA_DELETE = 2;
+    public static final int EVENT_NET_RECOMMEND_AT_HOME = 201;
+    public static final int EVENT_RESIDENCE_AT_HOME = 304;
+    public static final int EVENT_RESIDENCE_END = 400;
+    public static final int EVENT_RESIDENCE_ENTERING_HOME = 301;
+    public static final int EVENT_RESIDENCE_FENCE_INFO = 309;
+    public static final int EVENT_RESIDENCE_LEAVING_HOME = 302;
+    public static final int EVENT_RESIDENCE_LOC_CAPABILITIES = 307;
+    public static final int EVENT_RESIDENCE_LOC_RESULT = 308;
+    public static final int EVENT_RESIDENCE_LOC_RESULT_TYPE_FENCE = 1;
+    public static final int EVENT_RESIDENCE_LOC_RESULT_TYPE_SUBSPACE = 2;
+    public static final int EVENT_RESIDENCE_LOC_STATE = 306;
+    public static final int EVENT_RESIDENCE_NOT_AT_HOME = 305;
+    public static final int EVENT_RESIDENCE_OUTSIDE_DOOR = 303;
+    public static final int EVENT_RESIDENCE_RCMD_WORK_STATE = 202;
+    public static final int EVENT_RESIDENCE_SPACE_INFO = 310;
+    public static final int EVENT_RESIDENCE_SUBSPACE_LOC_ERROR = 312;
+    public static final int EVENT_RESIDENCE_SUBSPACE_LOC_SUCCESS = 311;
+    public static final int EVENT_SCENE_TYPE_CYBERSENSE = 100;
+    public static final int EVENT_SCENE_TYPE_RESIDENCE_LOCATION = 300;
+    public static final int EVENT_SCENE_TYPE_RESIDENCE_RECOMMEND = 200;
+    public static final int EVENT_SCENE_TYPE_SUBWAY_LOCATION = 500;
+    public static final int EVENT_SCENE_TYPE_SUBWAY_QOS = 400;
+    public static final int EVENT_SUBWAY_LOCATION_COLLECTION_DATA = 504;
+    public static final int EVENT_SUBWAY_LOCATION_POLICY = 505;
+    public static final int EVENT_SUBWAY_LOCATION_RESULT = 501;
+    public static final int EVENT_SUBWAY_LOCATION_RESULTS = 503;
+    public static final int EVENT_SUBWAY_LOCATION_STATE = 502;
+    public static final int EVENT_SUBWAY_LOC_END = 600;
+    public static final int EVENT_SUBWAY_QOS_END = 500;
+    public static final int EVENT_SUBWAY_QOS_PREDICTION_RESULT = 401;
+    public static final int EVENT_SUBWAY_QOS_PREDICTION_STATE = 402;
+    public static final int EVENT_SUBWAY_QOS_SERVICE_INFO = 403;
+    public static final int REGISTER_EVENT_NOT_AVAILABLE = 2;
+    public static final int REGISTER_INVALID_PARAMETERS = 4;
+    public static final int REGISTER_PERMISSION_ERROR = 3;
+    public static final int REGISTER_SUCCESS = 1;
+    public static final int RESIDENCE_LOC_CAP_CONTINUE_LOC = 4;
+    public static final int RESIDENCE_LOC_CAP_FENCE_DETECT = 1;
+    public static final int RESIDENCE_LOC_CAP_SINGLE_LOC = 8;
+    public static final int RESIDENCE_LOC_CAP_SPACE_LOC = 2;
+    public static final int RESIDENCE_LOC_CAP_SPACE_RELOCATION = 16;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d element można zoptymalizować</item>
+        <item quantity="few">%d elementy można zoptymalizować</item>
+        <item quantity="many">%d elementów można zoptymalizować</item>
+        <item quantity="other">%d elementu można zoptymalizować</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">Zoptymalizowane elementy: %d</item>
+        <item quantity="few">Zoptymalizowane elementy: %d</item>
+        <item quantity="many">Zoptymalizowane elementy: %d</item>
+        <item quantity="other">Zoptymalizowane elementy: %d</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Dostępne optymalizacje: %d</item>
+        <item quantity="few">Dostępne optymalizacje: %d</item>
+        <item quantity="many">Dostępne optymalizacje: %d</item>
+        <item quantity="other">Dostępne optymalizacje: %d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Wybrano: %d</item>
+        <item quantity="few">Wybrano: %d</item>
+        <item quantity="many">Wybrano: %d</item>
+        <item quantity="other">Wybrano: %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">Nowe powiadomienia: %d</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">Nowe powiadomienia: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Wyłącza się automatycznie, jeśli telefon w ciągu %d minuty nie wykryje urządzenia do ładowania.</item>
+        <item quantity="few">Wyłącza się automatycznie, jeśli telefon w ciągu %d minut nie wykryje urządzenia do ładowania.</item>
+        <item quantity="many">Wyłącza się automatycznie, jeśli telefon w ciągu %d minut nie wykryje urządzenia do ładowania.</item>
+        <item quantity="other">Wyłącza się automatycznie, jeśli telefon w ciągu %d minut nie wykryje urządzenia do ładowania.</item>
+    </plurals>
+</resources>

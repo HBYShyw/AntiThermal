@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">發現 %d 個省電最佳化項目</item>
+        <item quantity="other">發現 %d 個省電最佳化項目</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">共有 %d 項最佳化</item>
+        <item quantity="other">共有 %d 項最佳化</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">發現 %d 個省電最佳化項目，建議進行最佳化</item>
+        <item quantity="other">發現 %d 個省電最佳化項目，建議進行最佳化</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 個新通知</item>
+        <item quantity="other">%d 個新通知</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">已選擇 %d 項</item>
+        <item quantity="other">已選擇 %d 項</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d 個新通知</item>
+        <item quantity="other">%d 個新通知</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">%d 分鐘內無被充電裝置，此功能便會關閉</item>
+        <item quantity="other">%d 分鐘內無被充電裝置，此功能將被關閉</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>ครั้งล่าสุดที่ชาร์จถึง 90% หรือสูงกว่า</item>
+        <item>วันนี้</item>
+        <item>เมื่อวานนี้</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ล้างไฟล์ที่ไม่จำเป็น</item>
+        <item>โอนย้ายข้อมูลไปยัง SD</item>
+        <item>ทราบแล้ว</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>วันนี้</item>
+        <item>เมื่อวานนี้</item>
+        <item>เมื่อวานซืน</item>
+    </array>
+</resources>

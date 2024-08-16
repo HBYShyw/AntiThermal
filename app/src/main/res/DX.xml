@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<card-provider xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardLoadingIcon="@drawable/ic_card_loading"
+    app:groupImage="@drawable/ic_launcher_pwrmgr"
+    app:groupTitle="@string/app_name"
+    app:name="@string/battery_ui_card_name"
+    app:previewImage="@drawable/ic_card_view"
+    app:settingUrl="com.oplus.action.powermanager"
+    app:size="two2two"
+    app:type="188"/>

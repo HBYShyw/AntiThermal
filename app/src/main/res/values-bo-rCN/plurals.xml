@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">གློག་བསྲི་ལེགས་སྒྱུར་རྣམ་གྲངས་ %d རྙེད།</item>
+        <item quantity="other">གློག་བསྲི་ལེགས་སྒྱུར་རྣམ་གྲངས་ %d རྙེད།</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">བསྡོམས་པས་རྣམ་གྲངས་ %d ལེགས་སྒྱུར་བྱས།</item>
+        <item quantity="other">བསྡོམས་པས་རྣམ་གྲངས་ %d ལེགས་སྒྱུར་བྱས།</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">གློག་བསྲི་ལེགས་སྒྱུར་རྣམ་གྲངས་ %d རྙེད། ལེགས་སྒྱུར་བྱས་ན་བཟང་།</item>
+        <item quantity="other">གློག་བསྲི་ལེགས་སྒྱུར་རྣམ་གྲངས་ %d རྙེད། ལེགས་སྒྱུར་བྱས་ན་བཟང་།</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">རྣམ་གྲངས་ %d བདམས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d བདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">བརྡ་ཐོ་གསར་བ་%d</item>
+        <item quantity="other">བརྡ་ཐོ་གསར་བ་%d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">གལ་ཏེ་ཁྱེད་ཀྱི་ཁ་པར་གྱིས་སྐར་མ་ %d ནང་འཚུད་གློག་གསོག་བྱེད་པའི་སྒྲིག་ཆས་ཞིག་རྩད་གཅོད་མ་ཐུབ་པ་ཡིན་ན་རང་འགུལ་གྱི་ཤི་བ་ཡིན།</item>
+        <item quantity="other">གལ་ཏེ་ཁྱེད་ཀྱི་ཁ་པར་གྱིས་སྐར་མ་ %d ནང་འཚུད་གློག་གསོག་བྱེད་པའི་སྒྲིག་ཆས་ཞིག་རྩད་གཅོད་མ་ཐུབ་པ་ཡིན་ན་རང་འགུལ་གྱི་ཤི་བ་ཡིན།</item>
+    </plurals>
+</resources>

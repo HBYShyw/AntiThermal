@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d आयटम ऑप्‍टीमाइझ केला जाऊ शकतो</item>
+        <item quantity="other">%d आयटम्स ऑप्‍टीमाइझ केले जाऊ शकतात</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d ऑप्‍टीमाइझ केलेला आयटम</item>
+        <item quantity="other">%d ऑप्‍टीमाइझ केलेले आयटम्स</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ऑप्टिमायझेशन उपलब्ध</item>
+        <item quantity="other">%d ऑप्टिमायझेशन्स उपलब्ध</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d निवडले</item>
+        <item quantity="other">%d निवडले</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d नवीन सूचना</item>
+        <item quantity="other">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">आपल्या फोनला चार्ज करण्यासाठी %d मिनिटामध्ये डिव्हाइस आढळले नाही तर स्वयंचलितपणे बंद होते.</item>
+        <item quantity="other">आपल्या फोनला चार्ज करण्यासाठी %d मिनिटांमध्ये डिव्हाइस आढळले नाही तर स्वयंचलितपणे बंद होते.</item>
+    </plurals>
+</resources>

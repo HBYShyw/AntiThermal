@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference
+        android:layout="@layout/oplus_preference_header_local"
+        android:selectable="false"/>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:title="@string/power_consumption_analysis"
+        android:key="pm_consumption_analysis"
+        app:isFirstCategory="true"/>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="other">%d ລາຍການສາມາດຖືກປັບໃຫ້ເໝາະສົມໄດ້</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="other">ປັບ %d ລາຍການໃຫ້ເໝາະສົມແລ້ວ</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="other">ການເພີ່ມປະສິດທິພາບ %d ມີໃຫ້</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="other">ເລືອກ %d ແລ້ວ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="other">​ປິດ​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ ຖ້າ​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ບໍ່​ຄົ້ນ​ພົບ​ອຸ​ປະ​ກອນ​ທີ່​ຈະ​ສາກ​ພາຍ​ໃນ %d ນາ​ທີ.</item>
+    </plurals>
+</resources>

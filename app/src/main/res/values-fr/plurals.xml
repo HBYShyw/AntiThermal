@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d élément peut être optimisé</item>
+        <item quantity="many">%d éléments peuvent être optimisés</item>
+        <item quantity="other">%d éléments peuvent être optimisés</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d élément optimisé</item>
+        <item quantity="many">%d éléments optimisés</item>
+        <item quantity="other">%d éléments optimisés</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimisation disponible</item>
+        <item quantity="many">%d optimisations disponibles</item>
+        <item quantity="other">%d optimisations disponibles</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d sélectionné</item>
+        <item quantity="many">%d sélectionnés</item>
+        <item quantity="other">%d sélectionnés</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="many">%d nouvelles notifications</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Se désactive automatiquement si votre téléphone ne détecte pas d&apos;appareil à charger dans un délai de %d minute.</item>
+        <item quantity="many" />
+        <item quantity="other">Se désactive automatiquement si votre téléphone ne détecte pas d&apos;appareil à charger dans un délai de %d minutes.</item>
+    </plurals>
+</resources>

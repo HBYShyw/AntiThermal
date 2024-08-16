@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d ఐటమ్‌ని ఆప్టిమైజ్ చేయవచ్చు</item>
+        <item quantity="other">%d ఐటమ్‌లను ఆప్టిమైజ్ చేయవచ్చు</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d ఐటెమ్ ఆప్టిమైజ్ చేయబడింది</item>
+        <item quantity="other">%d ఐటెమ్‌లు ఆప్టిమైజ్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ఆప్టిమైజేషన్ అందుబాటులో ఉంది</item>
+        <item quantity="other">%d ఆప్టిమైజేషన్‌లు అందుబాటులో ఉన్నాయి</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d ఎంచుకున్నారు</item>
+        <item quantity="other">%d ఎంచుకున్నారు</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">%d నిమిషంలోపల మీ ఫోన్ ఛార్జ్ చేయడానికి ఒక పరికరాన్ని గుర్తించకపోతే ఆటోమేటిక్‌గా ఆఫ్ అయిపోతుంది.</item>
+        <item quantity="other">%d నిమిషంలోపల మీ ఫోన్ ఛార్జ్ చేయడానికి ఒక పరికరాన్ని గుర్తించకపోతే ఆటోమేటిక్‌గా ఆఫ్ అయిపోతుంది.</item>
+    </plurals>
+</resources>

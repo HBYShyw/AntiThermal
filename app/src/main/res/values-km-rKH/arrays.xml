@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>ការសាកថ្មចុងក្រោយដល់ 90% ឬលើសពីនេះ</item>
+        <item>ថ្ងៃនេះ</item>
+        <item>ម្សិលមិញ</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>សម្អាត</item>
+        <item>ផ្ទេរទៅ SD</item>
+        <item>បានទទួលហើយ</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ថ្ងៃនេះ</item>
+        <item>ម្សិលមិញ</item>
+        <item>2 ថ្ងៃមុន</item>
+    </array>
+</resources>

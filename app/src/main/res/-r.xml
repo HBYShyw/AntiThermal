@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:key="rm_sleep_mode"
+        app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIMarkPreference
+            android:title="@string/intelligent_sleep_super_mode"
+            android:selectable="true"
+            android:key="sleep_super_mode"
+            android:summary="@string/intelligent_sleep_super_summary"/>
+        <com.coui.appcompat.preference.COUIMarkPreference
+            android:title="@string/intelligent_sleep_balance_mode"
+            android:selectable="true"
+            android:key="sleep_balance_mode"
+            android:summary="@string/battery_ui_optimization_intelligent_deep_sleep_mode_summary_new"/>
+        <com.coui.appcompat.preference.COUIMarkPreference
+            android:title="@string/intelligent_sleep_close"
+            android:selectable="true"
+            android:key="sleep_close_mode"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

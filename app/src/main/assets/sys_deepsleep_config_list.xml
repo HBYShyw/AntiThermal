@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20230206</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_deepsleep_config_list</filter-name>
+    <!--NetworkDisableWhiteList断网接口白名单应用-->
+    <NetworkDisableWhiteList pkgName="com.oplus.sos"/>
+    <NetworkDisableWhiteList pkgName="com.heytap.mcs"/>
+    <NetworkDisableWhiteList pkgName="com.coloros.findmyphone"/>
+</filter-conf>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/fragment_startup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.coui.appcompat.cardview.COUICardView
+        android:id="@+id/loadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@null"
+        android:layout_centerHorizontal="true"
+        style="?attr/couiLoadingViewLargeStyle"/>
+    <TextView
+        android:textSize="@dimen/text_size_forteen_sp"
+        android:textColor="@color/rotate_activity_black_color"
+        android:id="@+id/loadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/coui_loading_view_access_string"
+        android:layout_below="@+id/loadingView"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.3"/>
+</RelativeLayout>

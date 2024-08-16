@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d üksust saab optimeerida</item>
+        <item quantity="other">%d üksust saab optimeerida</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d üksus on optimeeritud</item>
+        <item quantity="other">%d üksust on optimeeritud</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Saadaval on %d optimeerimine</item>
+        <item quantity="other">Saadaval on %d optimeerimist</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Valitud on %d</item>
+        <item quantity="other">Valitud on %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d uus teavitus</item>
+        <item quantity="other">%d uut teavitust</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Lülita automaatselt välja, kui telefon ei tuvasta %d minuti jooksul laetavat seadet.</item>
+        <item quantity="other">Kui telefon ei tuvasta %d minuti jooksul laetavat seadet, lülitatakse see automaatselt välja.</item>
+    </plurals>
+</resources>

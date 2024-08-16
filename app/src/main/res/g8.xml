@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="open_level_category">
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:persistent="false"
+            android:title="@string/power_save_mode_title"
+            android:key="power_save_switch"
+            android:defaultValue="false"/>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:persistent="false"
+            android:title="@string/power_save_auto_off_time_new"
+            android:key="auto_close_switch"
+            android:defaultValue="false"/>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:persistent="false"
+            android:title="@string/power_save_level_open_title_new"
+            android:key="open_level_switch"
+            android:defaultValue="false"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/power_save_default_optimization_new"
+            android:key="default_power_optimization"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="super_power_save_category">
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:title="@string/super_powersave_title"
+            android:key="super_power_save_switch_pref"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

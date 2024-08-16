@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Se poate optimiza %d element</item>
+        <item quantity="few">%d elemente pot fi optimizate.</item>
+        <item quantity="other">Se pot optimiza %d de elemente</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d element optimizat</item>
+        <item quantity="few">%d elemente optimizate</item>
+        <item quantity="other">%d elemente optimizate</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimizare disponibilă</item>
+        <item quantity="few">%d optimizări disponibile</item>
+        <item quantity="other">%d de optimizări disponibile</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d selectată</item>
+        <item quantity="few">%d selectate</item>
+        <item quantity="other">%d selectate</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d notificări noi</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Se oprește automat dacă telefonul nu detectează un dispozitiv de încărcat într-un interval de %d minut.</item>
+        <item quantity="few">Se închide automat dacă telefonul nu detectează un dispozitiv de încărcare în decurs de %d minute.</item>
+        <item quantity="other">Se oprește automat dacă telefonul nu detectează un dispozitiv de încărcat într-un interval de %d minute.</item>
+    </plurals>
+</resources>

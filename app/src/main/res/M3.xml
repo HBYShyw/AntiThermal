@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp">
+    <View
+        android:id="@+id/view1"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wireless_reverse_charging_introduction_new"/>
+    <View
+        android:id="@+id/view2"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

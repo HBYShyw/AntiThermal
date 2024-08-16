@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Oxirgi marta 90% yoki undan ortiq quvvatlangan</item>
+        <item>Bugun</item>
+        <item>Kecha</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Tozalash</item>
+        <item>SD kartaga koʻchirish</item>
+        <item>Tushunarli</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Bugun</item>
+        <item>Kecha</item>
+        <item>2 kun avval</item>
+    </array>
+</resources>

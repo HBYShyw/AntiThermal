@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>آخری چارج ‎90%‎‏ یا زیادہ</item>
+        <item>آج</item>
+        <item>گذشتہ کل</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>صاف کریں</item>
+        <item>‫‏SD‬ میں منتقل کریں</item>
+        <item>سمجھ آ گئی</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>آج</item>
+        <item>گذشتہ کل</item>
+        <item>گزشتہ پرسوں</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>છેલ્લા ચાર્જથી 90% અથવા તેથી વધુ</item>
+        <item>આજે</item>
+        <item>ગઈકાલે</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>સાફ કરો</item>
+        <item>SD પર સ્થાનાંતરિત કરો</item>
+        <item>સમજાઈ ગયું</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>આજે</item>
+        <item>ગઈકાલે</item>
+        <item>2 દિવસ પહેલા</item>
+    </array>
+</resources>

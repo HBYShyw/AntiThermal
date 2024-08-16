@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Zadnje punjenje na 90% ili više</item>
+        <item>Danas</item>
+        <item>Jučer</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Očisti</item>
+        <item>Premjesti na SD</item>
+        <item>Razumijem</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Danas</item>
+        <item>Jučer</item>
+        <item>Prekjučer</item>
+    </array>
+</resources>

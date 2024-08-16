@@ -1,0 +1,104 @@
+package com.android.server.usb;
+
+import android.R;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.hardware.usb.UsbDevice;
+import android.hardware.usb.UsbInterface;
+import android.os.UserHandle;
+import com.android.internal.notification.SystemNotificationChannels;
+import com.android.server.tare.AlarmManagerEconomicPolicy;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* loaded from: C:\Users\HuangYW\Desktop\Realme反编译\services\classes2.dex */
+public class MtpNotificationManager {
+    private static final String ACTION_OPEN_IN_APPS = "com.android.server.usb.ACTION_OPEN_IN_APPS";
+    private static final int PROTOCOL_MTP = 0;
+    private static final int PROTOCOL_PTP = 1;
+    private static final int SUBCLASS_MTP = 255;
+    private static final int SUBCLASS_STILL_IMAGE_CAPTURE = 1;
+    private static final String TAG = "UsbMtpNotificationManager";
+    private final Context mContext;
+    private final OnOpenInAppListener mListener;
+    private final Receiver mReceiver;
+
+    /* loaded from: C:\Users\HuangYW\Desktop\Realme反编译\services\classes2.dex */
+    interface OnOpenInAppListener {
+        void onOpenInApp(UsbDevice usbDevice);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public MtpNotificationManager(Context context, OnOpenInAppListener onOpenInAppListener) {
+        this.mContext = context;
+        this.mListener = onOpenInAppListener;
+        Receiver receiver = new Receiver();
+        this.mReceiver = receiver;
+        context.registerReceiver(receiver, new IntentFilter(ACTION_OPEN_IN_APPS));
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public void showNotification(UsbDevice usbDevice) {
+        Resources resources = this.mContext.getResources();
+        Notification.Builder category = new Notification.Builder(this.mContext, SystemNotificationChannels.USB).setContentTitle(resources.getString(17041795, usbDevice.getProductName())).setContentText(resources.getString(17041794)).setSmallIcon(R.drawable.tab_selected).setCategory("sys");
+        Intent intent = new Intent(ACTION_OPEN_IN_APPS);
+        intent.putExtra("device", usbDevice);
+        intent.addFlags(AlarmManagerEconomicPolicy.ACTION_ALARM_WAKEUP_EXACT_ALLOW_WHILE_IDLE);
+        category.setContentIntent(PendingIntent.getBroadcastAsUser(this.mContext, usbDevice.getDeviceId(), intent, 201326592, UserHandle.SYSTEM));
+        Notification build = category.build();
+        build.flags |= 256;
+        ((NotificationManager) this.mContext.getSystemService(NotificationManager.class)).notify(Integer.toString(usbDevice.getDeviceId()), 25, build);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public void hideNotification(int i) {
+        ((NotificationManager) this.mContext.getSystemService(NotificationManager.class)).cancel(Integer.toString(i), 25);
+    }
+
+    /* loaded from: C:\Users\HuangYW\Desktop\Realme反编译\services\classes2.dex */
+    private class Receiver extends BroadcastReceiver {
+        private Receiver() {
+        }
+
+        @Override // android.content.BroadcastReceiver
+        public void onReceive(Context context, Intent intent) {
+            UsbDevice usbDevice = (UsbDevice) intent.getExtras().getParcelable("device", UsbDevice.class);
+            if (usbDevice == null) {
+                return;
+            }
+            String action = intent.getAction();
+            action.hashCode();
+            if (action.equals(MtpNotificationManager.ACTION_OPEN_IN_APPS)) {
+                MtpNotificationManager.this.mListener.onOpenInApp(usbDevice);
+            }
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static boolean shouldShowNotification(PackageManager packageManager, UsbDevice usbDevice) {
+        return !packageManager.hasSystemFeature("android.hardware.type.automotive") && isMtpDevice(usbDevice);
+    }
+
+    private static boolean isMtpDevice(UsbDevice usbDevice) {
+        for (int i = 0; i < usbDevice.getInterfaceCount(); i++) {
+            UsbInterface usbInterface = usbDevice.getInterface(i);
+            if (usbInterface.getInterfaceClass() == 6 && usbInterface.getInterfaceSubclass() == 1 && usbInterface.getInterfaceProtocol() == 1) {
+                return true;
+            }
+            if (usbInterface.getInterfaceClass() == 255 && usbInterface.getInterfaceSubclass() == 255 && usbInterface.getInterfaceProtocol() == 0 && "MTP".equals(usbInterface.getName())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void unregister() {
+        this.mContext.unregisterReceiver(this.mReceiver);
+    }
+}

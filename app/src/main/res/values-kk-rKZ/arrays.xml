@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Соңғы қуат 90% немесе одан жоғары болды</item>
+        <item>Бүгін</item>
+        <item>Кеше</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Орын босату</item>
+        <item>SD картаға көшіру</item>
+        <item>Түсінікті</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Бүгін</item>
+        <item>Кеше</item>
+        <item>2 күндер бұрын</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Cea mai recentă încărcare la 90% sau mai mult</item>
+        <item>Astăzi</item>
+        <item>Ieri</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Curățare</item>
+        <item>Migrare pe SD</item>
+        <item>Am înțeles</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Astăzi</item>
+        <item>Ieri</item>
+        <item>Acum 2 zile</item>
+    </array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Moguća je optimizacija %d stavke</item>
+        <item quantity="few">Moguća je optimizacija %d stavke</item>
+        <item quantity="other">Moguća je optimizacija %d stavke</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">Optimizovana je %d stavka</item>
+        <item quantity="few">Optimizovane su %d stavke</item>
+        <item quantity="other">Optimizovano je %d stavki</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Dostupna je %d optimizacija</item>
+        <item quantity="few">Dostupne su %d optimizacije</item>
+        <item quantity="other">Dostupno je %d optimizacija</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obaveštenje</item>
+        <item quantity="few">%d nova obaveštenja</item>
+        <item quantity="other">%d novih obaveštenja</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d je izabrana</item>
+        <item quantity="few">%d su izabrane</item>
+        <item quantity="other">%d je izabrano</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d novo obaveštenje</item>
+        <item quantity="few">%d nova obaveštenja</item>
+        <item quantity="other">%d nova obaveštenja</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Automatski se isključuje ako telefon ne detektuje uređaj za punjenje kroz %d minut.</item>
+        <item quantity="few">Automatski se isključuje ako vaš telefon ne detektuje uređaj za punjenje u roku od %d minuta.</item>
+        <item quantity="other">Automatski se isključuje ako telefon ne detektuje uređaj za punjenje kroz %d minuta.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.COUI.List.Category.Title" parent="@style/Widget.COUI.List.Category">
+        <item name="android:textAppearance">@style/couiTextAppearanceSmallButton</item>
+        <item name="android:textColor">?attr/couiColorSecondNeutral</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:id">@android:id/title</item>
+        <item name="android:paddingLeft">@dimen/coui_preference_category_text_padding_left</item>
+        <item name="android:paddingTop">@dimen/coui_common_category_text_padding_top</item>
+        <item name="android:paddingRight">@dimen/coui_preference_category_text_padding_left</item>
+        <item name="android:paddingBottom">@dimen/coui_common_category_text_padding_bottom</item>
+        <item name="android:minHeight">@dimen/coui_preference_category_text_height</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="preferenceClassificationTextStyle" parent="">
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+</resources>

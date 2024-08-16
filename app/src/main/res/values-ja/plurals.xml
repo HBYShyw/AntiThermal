@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="other">%d 件の項目の最適化が可能です</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="other">%d 個の項目が最適化されました</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="other">%d つの最適化が利用可能</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 件の新しい通知</item>
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="other">%d 件選択済み</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="other">携帯電話が %d 分以内に充電するデバイスを検出しない場合は、自動的にオフになります。</item>
+    </plurals>
+</resources>

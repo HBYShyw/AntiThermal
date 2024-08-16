@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>ຄັ້ງຫຼ້າສຸດທີ່ສາກຮອດ 90% ຫຼື ຫຼາຍກວ່າ</item>
+        <item>ມື້ນີ້</item>
+        <item>ມື້ວານນີ້</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ອະນາໄມ</item>
+        <item>ຍ້າຍຂໍ້ມູນໃສ່ SD</item>
+        <item>ເຂົ້າໃຈແລ້ວ</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ມື້ນີ້</item>
+        <item>ມື້ວານນີ້</item>
+        <item>ມື້ກ່ອນມື້ວານນີ້</item>
+    </array>
+</resources>

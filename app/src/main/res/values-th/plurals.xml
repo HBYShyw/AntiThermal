@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">สามารถเพิ่มประสิทธิภาพได้ %d รายการ</item>
+        <item quantity="other">สามารถเพิ่มประสิทธิภาพได้ %d รายการ</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">เพิ่มประสิทธิภาพแล้ว %d รายการ</item>
+        <item quantity="other">เพิ่มประสิทธิภาพแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">มีการเพิ่มประสิทธิภาพที่ใช้ได้ %d รายการ</item>
+        <item quantity="other">มีการเพิ่มประสิทธิภาพที่ใช้ได้ %d รายการ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">เลือกแล้ว %d รายการ</item>
+        <item quantity="other">เลือกแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">ปิดการทำงานโดยอัตโนมัติถ้าโทรศัพท์ของคุณตรวจไม่พบอุปกรณ์ที่จะชาร์จภายใน %d นาที</item>
+        <item quantity="other">ปิดการทำงานโดยอัตโนมัติถ้าโทรศัพท์ของคุณตรวจไม่พบอุปกรณ์ที่จะชาร์จภายใน %d นาที</item>
+    </plurals>
+</resources>

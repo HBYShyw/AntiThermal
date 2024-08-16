@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Ultima carica al 90% o superiore</item>
+        <item>Oggi</item>
+        <item>Ieri</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Procedere alla pulizia</item>
+        <item>Trasferire su scheda SD</item>
+        <item>OK</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Oggi</item>
+        <item>Ieri</item>
+        <item>L\'altro ieri</item>
+    </array>
+</resources>

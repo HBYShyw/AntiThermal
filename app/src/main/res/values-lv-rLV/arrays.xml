@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Pēdējā uzlāde līdz 90 % vai vairāk</item>
+        <item>Šodien</item>
+        <item>Vakar</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Tīrīt</item>
+        <item>Migrēt uz SD karti</item>
+        <item>Sapratu</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Šodien</item>
+        <item>Vakar</item>
+        <item>Aizvakar</item>
+    </array>
+</resources>

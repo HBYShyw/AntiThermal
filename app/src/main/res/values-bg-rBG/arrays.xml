@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Последно зареждане до 90% или повече</item>
+        <item>Днес</item>
+        <item>Вчера</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Изчистване</item>
+        <item>Прехвърляне към SD картата</item>
+        <item>ОК</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Днес</item>
+        <item>Вчера</item>
+        <item>Преди 2 дни</item>
+    </array>
+</resources>

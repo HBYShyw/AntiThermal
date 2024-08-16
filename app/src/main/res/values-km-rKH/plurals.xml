@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="other">ធាតុ %d អាចត្រូវបានបង្កើនប្រសិទ្ធភាព</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="other">បានបង្កើនប្រសិទ្ធភាពធាតុ %d</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="other">មានការបង្កើនប្រសិទ្ធភាព %d</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="other">បានជ្រើសរើស %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">ការជូនដំណឹងថ្មីៗ %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="other">បិទដោយស្វ័យប្រវត្តិ ប្រសិនបើទូរសព្ទរបស់អ្នកមិនរកឃើញឧបករណ៍ត្រូវសាកថ្មក្នុងរយៈពេល %d នាទីទេ។</item>
+    </plurals>
+</resources>

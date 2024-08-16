@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/res_0x7f08004b_coui_btn_radio_on_to_off_animation__7"
+        android:duration="267"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="strokeAlpha"/>
+    <objectAnimator
+        android:interpolator="@drawable/res_0x7f08004c_coui_btn_radio_on_to_off_animation__8"
+        android:duration="267"
+        android:startOffset="0"
+        android:valueFrom="1.6"
+        android:valueTo="1.6"
+        android:valueType="floatType"
+        android:propertyName="strokeWidth"/>
+</set>

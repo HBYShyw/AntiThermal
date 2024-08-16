@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@+id/card_entrance_preference_layout"
+    android:background="@drawable/coui_component_card_entrance_small_bg"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.coui.appcompat.imageview.COUIRoundImageView
+        android:layout_gravity="start"
+        android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        settings:couiType="round"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:textAppearance="?attr/couiTextAppearanceHeadline6"
+            android:textColor="?attr/couiColorPrimaryNeutral"
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentTop="true"
+            android:textAlignment="viewStart"
+            android:layout_alignParentStart="true"/>
+        <TextView
+            android:textAppearance="?attr/couiTextAppearanceDescription"
+            android:textColor="?attr/couiColorSecondNeutral"
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@android:id/title"
+            android:textAlignment="viewStart"
+            android:layout_alignStart="@android:id/title"/>
+    </RelativeLayout>
+</LinearLayout>

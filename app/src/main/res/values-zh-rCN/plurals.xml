@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">发现 %d 个省电优化项</item>
+        <item quantity="other">发现 %d 个省电优化项</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">共优化 %d 项</item>
+        <item quantity="other">共优化 %d 项</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">发现 %d 个省电优化项，建议优化</item>
+        <item quantity="other">发现 %d 个省电优化项，建议优化</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 条新通知</item>
+        <item quantity="other">%d 条新通知</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">已选择 %d 项</item>
+        <item quantity="other">已选择 %d 项</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d条新通知</item>
+        <item quantity="other">%d条新通知</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">%d 分钟内无被充电设备，此功能将被关闭</item>
+        <item quantity="other">%d 分钟内无被充电设备，此功能将被关闭</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Paskutinis įkrovimas iki 90 % arba daugiau</item>
+        <item>šiandien</item>
+        <item>vakar</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Išvalyti</item>
+        <item>Perkelti į SD</item>
+        <item>Supratau</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Šiandien</item>
+        <item>Vakar</item>
+        <item>Užvakar</item>
+    </array>
+</resources>

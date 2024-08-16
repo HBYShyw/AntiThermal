@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference
+        android:layout="@layout/oplus_preference_header_local"
+        android:selectable="false"/>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:key="pm_app_setting_view"
+        app:isFirstCategory="true">
+        <com.oplus.powermanager.fuelgaue.base.PowerCustomMarkPreference
+            android:title="@string/mark_pref_title_allow_background_run"
+            android:selectable="true"
+            android:key="mark_pref_allow_back_run"
+            android:summary="@string/mark_pref_summery_allow_background_run"/>
+        <com.oplus.powermanager.fuelgaue.base.PowerCustomMarkPreference
+            android:title="@string/mark_pref_prohibit_background_run"
+            android:selectable="true"
+            android:key="mark_pref_prohibit_back_run"/>
+        <com.oplus.powermanager.fuelgaue.base.PowerCustomMarkPreference
+            android:title="@string/mark_pref_intelligently_limit_background_run"
+            android:selectable="true"
+            android:key="mark_pref_intelligently_limit_back_run"
+            android:summary="@string/mark_pref_power_protect_summery"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

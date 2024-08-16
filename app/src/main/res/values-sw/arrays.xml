@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Chaji ya mwisho hadi 90% au zaidi</item>
+        <item>Leo</item>
+        <item>Jana</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Safisha</item>
+        <item>Hamisha kwenye SD</item>
+        <item>Nimeelewa</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Leo</item>
+        <item>Jana</item>
+        <item>2 Siku zilizopita</item>
+    </array>
+</resources>

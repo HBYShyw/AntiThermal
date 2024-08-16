@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d مورد را می‌توان بهینه‌سازی کرد</item>
+        <item quantity="other">%d مورد را می‌توان بهینه‌سازی کرد</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d مورد بهینه‌سازی شد</item>
+        <item quantity="other">%d مورد بهینه‌سازی شد</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d بهینه‌سازی موجود است</item>
+        <item quantity="other">%d بهینه‌سازی موجود است</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d انتخاب شد</item>
+        <item quantity="other">%d انتخاب شد</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d اعلان‌ جدید</item>
+        <item quantity="other">%d اعلان‌ جدید</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">اگر تلفن شما ظرف %d دقیقه دستگاهی را برای شارژ پیدا نکند، به طور خودکار خاموش می‌شود.</item>
+        <item quantity="other">اگر تلفن شما ظرف %d دقیقه دستگاهی را برای شارژ پیدا نکند، به طور خودکار خاموش می‌شود.</item>
+    </plurals>
+</resources>

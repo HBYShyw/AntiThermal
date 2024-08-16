@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/coui_alert_dialog_content_panel_padding_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/oplus_dialog_customview_padding_left"
+    android:paddingEnd="@dimen/oplus_dialog_customview_padding_right"/>

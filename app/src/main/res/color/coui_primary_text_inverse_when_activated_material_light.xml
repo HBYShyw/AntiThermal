@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:color="?attr/couiColorOnPrimary"
+        android:state_activated="true"
+        android:alpha="?android:attr/disabledAlpha"/>
+    <item
+        android:state_enabled="false"
+        android:color="?attr/couiColorPrimaryNeutral"
+        android:alpha="?android:attr/disabledAlpha"/>
+    <item
+        android:color="?attr/couiColorOnPrimary"
+        android:state_activated="true"/>
+    <item android:color="?attr/couiColorPrimaryNeutral"/>
+</selector>

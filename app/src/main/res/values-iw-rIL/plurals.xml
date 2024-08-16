@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">ניתן למטב פריט %d</item>
+        <item quantity="two">ניתן למטב %d פריטים</item>
+        <item quantity="many">ניתן למטב %d פריטים</item>
+        <item quantity="other">ניתן למטב %d פריטים</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">פריט %d מוטב</item>
+        <item quantity="two">%d פריטים מוטבו</item>
+        <item quantity="many">%d פריטים מוטבו</item>
+        <item quantity="other">%d פריטים מוטבו</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">מיטוב %d זמין</item>
+        <item quantity="two">%d מיטובים זמינים</item>
+        <item quantity="many">%d מיטובים זמינים</item>
+        <item quantity="other">%d מיטובים זמינים</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">נבחר %d</item>
+        <item quantity="two">נבחרו %d</item>
+        <item quantity="many">נבחרו %d</item>
+        <item quantity="other">נבחרו %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d הודעות חדשות</item>
+        <item quantity="two">%d הודעות חדשות</item>
+        <item quantity="many">%d הודעות חדשות</item>
+        <item quantity="other">%d הודעות חדשות</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">מתבצע כיבוי אוטומטי אם הטלפון לא מזהה מכשיר טעינה תוך %d דקות.</item>
+        <item quantity="two">הטלפון נכבה באופן אוטומטי אם לא נמצא מכשיר לטעינה תוך %d דקות.</item>
+        <item quantity="many">הטלפון נכבה באופן אוטומטי אם לא נמצא מכשיר לטעינה תוך %d דקות.</item>
+        <item quantity="other">מתבצע כיבוי באופן אוטומטי אם הטלפון לא מזהה מכשיר טעינה תוך %d דקות.</item>
+    </plurals>
+</resources>

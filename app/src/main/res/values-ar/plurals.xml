@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="zero">يمكن تحسين %d عنصر</item>
+        <item quantity="one">يمكن تحسين عنصر واحد</item>
+        <item quantity="two">يمكن تحسين عنصرين</item>
+        <item quantity="few">يمكن تحسين %d عناصر</item>
+        <item quantity="many">يمكن تحسين %d عنصرًا</item>
+        <item quantity="other">يمكن تحسين %d عنصر</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="zero">تم تحسين %d عنصر</item>
+        <item quantity="one">تم تحسين عنصر واحد</item>
+        <item quantity="two">تم تحسين عنصرين</item>
+        <item quantity="few">تم تحسين %d عناصر</item>
+        <item quantity="many">تم تحسين %d عنصرًا</item>
+        <item quantity="other">تم تحسين %d عنصر</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="zero">متوفر %d تحسين</item>
+        <item quantity="one">متوفر تحسين واحد</item>
+        <item quantity="two">متوفر تحسينان</item>
+        <item quantity="few">متوفر %d تحسينات</item>
+        <item quantity="many">متوفر %d تحسينًا</item>
+        <item quantity="other">متوفر %d تحسين</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">%d من الإشعارات الجديدة</item>
+        <item quantity="two">إشعاران جديدان</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d من الإشعارات الجديدة</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="zero">يتم إيقاف تشغيله تلقائيًا إذا لم يكشف هاتفك عن جهاز لشحنه خلال %d دقيقة.</item>
+        <item quantity="one">يتم إيقاف تشغيلها تلقائيًا إذا لم يكتشف هاتفك جهازًا لشحنه خلال %d دقيقة.</item>
+        <item quantity="two">يتم إيقاف تشغيله تلقائيًا إذا لم يكشف هاتفك عن جهاز لشحنه خلال دقيقتين.</item>
+        <item quantity="few">يتم إيقاف تشغيله تلقائيًا إذا لم يكشف هاتفك عن جهاز لشحنه خلال %d دقائق.</item>
+        <item quantity="many">يتم إيقاف تشغيله تلقائيًا إذا لم يكشف هاتفك عن جهاز لشحنه خلال %d دقيقة.</item>
+        <item quantity="other">يتم إيقاف تشغيلها تلقائيًا إذا لم يكتشف هاتفك جهازًا لشحنه خلال %d من الدقائق.</item>
+    </plurals>
+</resources>

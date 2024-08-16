@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/abc_vector_test, @layout/abc_screen_simple, @layout/one_key_entry_activity"
+    tools:shrinkMode="safe"/>

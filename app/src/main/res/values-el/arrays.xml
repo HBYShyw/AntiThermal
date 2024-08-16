@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Τελευταία φόρτιση έως 90% ή περισσότερο</item>
+        <item>Σήμερα</item>
+        <item>Χθες</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Καθαρισμός</item>
+        <item>Μετεγκατάσταση σε SD</item>
+        <item>Εντάξει</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Σήμερα</item>
+        <item>Χθες</item>
+        <item>2 ημέρες πριν</item>
+    </array>
+</resources>

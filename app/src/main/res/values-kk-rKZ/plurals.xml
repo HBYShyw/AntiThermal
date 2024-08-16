@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d элементті оңтайландыруға болады</item>
+        <item quantity="other">%d элементті оңтайландыруға болады</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d элемент оңтайландырылды</item>
+        <item quantity="other">%d элемент оңтайландырылды</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d оңтайландыру бар</item>
+        <item quantity="other">%d оңтайландыру бар</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d таңдалды</item>
+        <item quantity="other">%d таңдалды</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d жаңа хабарландыру</item>
+        <item quantity="other">%d жаңа хабарландырулар</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Телефоныңыз %d минут ішінде қуатталатын құрылғыны анықтамаса, автоматты түрде өшеді.</item>
+        <item quantity="other">Телефоныңыз %d минут ішінде қуатталатын құрылғыны анықтамаса, автоматты түрде өшеді.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@android:dimen/status_bar_icon_size"
+    android:layout_marginEnd="@android:dimen/status_bar_icon_size">
+    <com.coui.appcompat.progressbar.COUILoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@null"
+        style="?attr/couiLoadingViewLargeStyle"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startup_loading"
+        android:singleLine="true"/>
+</LinearLayout>

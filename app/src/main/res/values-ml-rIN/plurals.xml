@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d ഇനം ഒപ്‌റ്റിമൈസ് ചെയ്യാനാകും</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഒപ്‌റ്റിമൈസ് ചെയ്യാനാകും</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d ഇനം ഒപ്‌റ്റിമൈസ് ചെയ്തു</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഒപ്‌റ്റിമൈസ് ചെയ്തു</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ഒപ്റ്റിമൈസേഷൻ ലഭ്യമാണ്</item>
+        <item quantity="other">%d ഒപ്റ്റിമൈസേഷനുകൾ ലഭ്യമാണ്</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">നിങ്ങളുടെ ഫോൺ %d മിനിറ്റിൽ ചാർജ് ചെയ്യേണ്ട ഉപകരണം കണ്ടെത്തിയില്ലെങ്കിൽ സ്വയമേവ ഓഫാകും.</item>
+        <item quantity="other">നിങ്ങളുടെ ഫോൺ %d മിനിറ്റിൽ ചാർജ് ചെയ്യേണ്ട ഉപകരണം കണ്ടെത്തിയില്ലെങ്കിൽ സ്വയമേവ ഓഫാകും.</item>
+    </plurals>
+</resources>

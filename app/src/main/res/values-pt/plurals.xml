@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Desliga-se automaticamente se o seu telefone não detetar um dispositivo para carregar dentro de %d minuto.</item>
+        <item quantity="other">Desliga-se automaticamente se o telefone não detetar um dispositivo para carregar dentro de %d minutos.</item>
+    </plurals>
+</resources>

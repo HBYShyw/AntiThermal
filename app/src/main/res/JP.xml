@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/wireless_reverse_charging_title">
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.oplus.powermanager.fuelgaue.WirelessReverseGuideAnimationPreference
+            android:persistent="false"
+            android:enabled="false"
+            android:key="guide_animation"/>
+        <com.coui.appcompat.preference.COUIPreference
+            android:layout="@layout/wireless_reverse_charging_introduction"
+            android:selectable="false"
+            android:key="wireless_reverse_header_tip_pref"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:persistent="false"
+            android:title="@string/wireless_reverse_charging_title"
+            android:key="wireless_reverse_charging_pref"
+            android:defaultValue="false"/>
+        <com.coui.appcompat.preference.COUIPreference
+            android:title="@string/battery_level_toolow_disable"
+            android:key="battery_level_toolow_disable_pref"/>
+        <com.oplus.powermanager.fuelgaue.basic.customized.WirelessReverseLevelPicker
+            android:key="battery_level_picker_pref"
+            app:isPreferenceVisible="false"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:layout="@layout/bottom_layout"
+        android:key="bottom_preference"/>
+</androidx.preference.PreferenceScreen>

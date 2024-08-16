@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny notifikation</item>
+        <item quantity="other">%d nye notifikationer</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Slås automatisk fra hvis din telefon ikke registrerer en enhed til opladning indenfor %d minut.</item>
+        <item quantity="other">Slås automatisk fra hvis din telefon ikke registrerer en enhed til opladning indenfor %d minutter.</item>
+    </plurals>
+</resources>

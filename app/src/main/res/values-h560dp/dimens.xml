@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_alert_dialog_builder_content_max_height">300dp</dimen>
+    <dimen name="coui_alert_dialog_builder_content_max_height_with_adapter">240dp</dimen>
+    <dimen name="coui_alert_dialog_builder_content_min_height">60dp</dimen>
+</resources>

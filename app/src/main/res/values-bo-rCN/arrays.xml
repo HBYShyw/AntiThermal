@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>ཐེངས་སྔོན་མར་ 90% ཡན་དུ་གློག་བསགས་པ་།</item>
+        <item>དེ་རིང་།</item>
+        <item>ཁ་སང་།</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>གཙང་སེལ་བྱེད་པར་བསྐྱོད།</item>
+        <item>SD བྱང་བུ་སྟེང་དུ་འཕོ་འགྱུར་བྱ།</item>
+        <item>འབྱོར་སོང་</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>དེ་རིང་།</item>
+        <item>ཁ་སང་</item>
+        <item>ཉིན་ 2 གོང་།</item>
+    </array>
+</resources>

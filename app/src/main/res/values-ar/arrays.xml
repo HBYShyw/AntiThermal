@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>آخر شحن حتى ٩٠٪ أو أعلى</item>
+        <item>اليوم</item>
+        <item>أمس</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>تنظيف</item>
+        <item>الترحيل إلى SD</item>
+        <item>حسنًا</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>اليوم</item>
+        <item>أمس</item>
+        <item>أمس الأول</item>
+    </array>
+</resources>

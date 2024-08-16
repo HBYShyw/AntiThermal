@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="coui_lunar_month">
+        <item>@string/lunar_january</item>
+        <item>@string/lunar_februry</item>
+        <item>@string/lunar_march</item>
+        <item>@string/lunar_april</item>
+        <item>@string/lunar_may</item>
+        <item>@string/lunar_june</item>
+        <item>@string/lunar_july</item>
+        <item>@string/lunar_august</item>
+        <item>@string/lunar_september</item>
+        <item>@string/lunar_october</item>
+        <item>@string/lunar_november</item>
+        <item>@string/lunar_december</item>
+    </array>
+    <array name="coui_number_keyboard_letters">
+        <item />
+        <item>@string/abc</item>
+        <item>@string/def</item>
+        <item>@string/ghi</item>
+        <item>@string/jkl</item>
+        <item>@string/mno</item>
+        <item>@string/pqrs</item>
+        <item>@string/tuv</item>
+        <item>@string/wxyz</item>
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="coui_solor_mounth">
+        <item>@string/january</item>
+        <item>@string/februry</item>
+        <item>@string/march</item>
+        <item>@string/april</item>
+        <item>@string/may</item>
+        <item>@string/june</item>
+        <item>@string/july</item>
+        <item>@string/august</item>
+        <item>@string/september</item>
+        <item>@string/october</item>
+        <item>@string/november</item>
+        <item>@string/december</item>
+    </array>
+    <array name="coui_theme_arrays_default_patch">
+        <item>@style/COUIOverlay.Theme.Green.Default</item>
+        <item>@style/COUIOverlay.Theme.Red.Default</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Default</item>
+        <item>@style/COUIOverlay.Theme.Blue.Default</item>
+        <item>@style/COUIOverlay.Theme.Orange.Default</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Default</item>
+    </array>
+    <array name="coui_theme_arrays_default_patch_r">
+        <item>@style/COUIOverlay.Theme.Default.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Default</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Default</item>
+        <item>@style/COUIOverlay.Theme.Blue.Default</item>
+        <item>@style/COUIOverlay.Theme.Orange.Default</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Default</item>
+    </array>
+    <array name="coui_theme_arrays_fifth">
+        <item>@style/COUIOverlay.Theme.Green.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Red.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fifth</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fifth</item>
+    </array>
+    <array name="coui_theme_arrays_first">
+        <item>@style/COUIOverlay.Theme.Green.First</item>
+        <item>@style/COUIOverlay.Theme.Red.First</item>
+        <item>@style/COUIOverlay.Theme.Yellow.First</item>
+        <item>@style/COUIOverlay.Theme.Blue.First</item>
+        <item>@style/COUIOverlay.Theme.Orange.First</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.First</item>
+    </array>
+    <array name="coui_theme_arrays_fourth">
+        <item>@style/COUIOverlay.Theme.Green.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Red.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fourth</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fourth</item>
+    </array>
+    <array name="coui_theme_arrays_ids">
+        <item>@array/coui_theme_arrays_first</item>
+        <item>@array/coui_theme_arrays_second</item>
+        <item>@array/coui_theme_arrays_third</item>
+        <item>@array/coui_theme_arrays_fourth</item>
+        <item>@array/coui_theme_arrays_fifth</item>
+    </array>
+    <array name="coui_theme_arrays_second">
+        <item>@style/COUIOverlay.Theme.Green.Second</item>
+        <item>@style/COUIOverlay.Theme.Red.Second</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Second</item>
+        <item>@style/COUIOverlay.Theme.Blue.Second</item>
+        <item>@style/COUIOverlay.Theme.Orange.Second</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Second</item>
+    </array>
+    <array name="coui_theme_arrays_single">
+        <item>@style/COUIOverlay.Theme.Single.First</item>
+        <item>@style/COUIOverlay.Theme.Single.Second</item>
+        <item>@style/COUIOverlay.Theme.Single.Third</item>
+        <item>@style/COUIOverlay.Theme.Single.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Single.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Single.Sixth</item>
+        <item>@style/COUIOverlay.Theme.Single.Seventh</item>
+        <item>@style/COUIOverlay.Theme.Single.Eighth</item>
+        <item>@style/COUIOverlay.Theme.Single.Ninth</item>
+        <item>@style/COUIOverlay.Theme.Single.Tenth</item>
+    </array>
+    <array name="coui_theme_arrays_third">
+        <item>@style/COUIOverlay.Theme.Green.Third</item>
+        <item>@style/COUIOverlay.Theme.Red.Third</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Third</item>
+        <item>@style/COUIOverlay.Theme.Blue.Third</item>
+        <item>@style/COUIOverlay.Theme.Orange.Third</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Third</item>
+    </array>
+    <array name="coui_time_picker_ampm">
+        <item>@string/morning</item>
+        <item>@string/afternoon</item>
+    </array>
+    <array name="deepsleep_dumpstats_arrays">
+        <item>status:</item>
+        <item>alarm time:</item>
+        <item>sleep start time:</item>
+        <item>sleep end time:</item>
+        <item>AI forecast:</item>
+        <item>wifi:</item>
+        <item>mobile data:</item>
+        <item>wifi switch:</item>
+        <item>mobile data switch:</item>
+        <item>traffic app</item>
+        <item>traffic app time</item>
+        <item>traffic autostop</item>
+        <item>wl</item>
+    </array>
+    <array name="gt_video_app_list">
+        <item>@string/com_tencent_qqlive</item>
+        <item>@string/com_youku_phone</item>
+        <item>@string/com_hunantv_imgo</item>
+        <item>@string/tv_danmaku_bili</item>
+        <item>@string/com_heytap_yoli</item>
+        <item>@string/com_google_android_youtube</item>
+    </array>
+    <array name="history_spinner_arrays">
+        <item>Last charge to 90% or above</item>
+        <item>Today</item>
+        <item>Yesterday</item>
+    </array>
+    <array name="normal_touchsearch_keys">
+        <item>@string/star_character</item>
+        <item>@string/a</item>
+        <item>@string/b</item>
+        <item>@string/c</item>
+        <item>@string/d</item>
+        <item>@string/e</item>
+        <item>@string/f</item>
+        <item>@string/g</item>
+        <item>@string/h</item>
+        <item>@string/i</item>
+        <item>@string/j</item>
+        <item>@string/k</item>
+        <item>@string/l</item>
+        <item>@string/m</item>
+        <item>@string/n</item>
+        <item>@string/o</item>
+        <item>@string/p</item>
+        <item>@string/q</item>
+        <item>@string/r</item>
+        <item>@string/s</item>
+        <item>@string/t</item>
+        <item>@string/u</item>
+        <item>@string/v</item>
+        <item>@string/w</item>
+        <item>@string/x</item>
+        <item>@string/y</item>
+        <item>@string/z</item>
+        <item>@string/well_character</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Clean up</item>
+        <item>Migrate to SD</item>
+        <item>Got it</item>
+    </array>
+    <array name="pco_bottom_dialog_items">
+        <item>@string/pco_bottom_dialog_auto_optimization</item>
+        <item>@string/pco_bottom_dialog_not_optimization</item>
+        <item>@string/pco_bottom_dialog_ask_every_time</item>
+    </array>
+    <array name="power_saving_mode_tips_items">
+        <item>@string/power_save_five_g</item>
+        <item>@string/power_save_screen_brightness</item>
+        <item>@string/power_save_tips_screenoff_time</item>
+        <item>@string/power_save_setting_switch_sync</item>
+        <item>@string/power_save_screen_refresh</item>
+    </array>
+    <array name="push_pkg">
+        <item>com.coloros.mcs</item>
+        <item>com.heytap.mcs</item>
+    </array>
+    <array name="self_develop_pre">
+        <item>com.oppo.</item>
+        <item>com.coloros.</item>
+        <item>com.nearme.</item>
+        <item>com.oplus.</item>
+        <item>com.heytap.</item>
+        <item>com.oneplus.</item>
+    </array>
+    <array name="smart_long_charge_protection_arrays">
+        <item>@string/smart_long_charge_protection_notification_choice_close</item>
+        <item>@string/smart_long_charge_protection_notification_choice_night</item>
+        <item>@string/smart_long_charge_protection_notification_choice_day</item>
+    </array>
+    <array name="smart_refresh_app_list">
+        <item>common_config</item>
+        <item>@string/com_android_settings</item>
+        <item>@string/com_android_launcher</item>
+        <item>@string/com_coloros_recents</item>
+        <item>@string/com_android_contacts</item>
+        <item>@string/com_android_mms</item>
+        <item>@string/com_android_systemui</item>
+        <item>@string/com_android_settings_intelligence</item>
+        <item>@string/com_oplus_notificationmanager</item>
+        <item>@string/com_oplus_securitypermission</item>
+        <item>@string/com_android_permissioncontroller</item>
+        <item>@string/com_coloros_note</item>
+        <item>@string/com_coloros_weather2</item>
+    </array>
+    <array name="special_touchsearch_keys">
+        <item>@string/a</item>
+        <item>@string/b</item>
+        <item>@string/c</item>
+        <item>@string/d</item>
+        <item>@string/e</item>
+        <item>@string/f</item>
+        <item>@string/g</item>
+        <item>@string/h</item>
+        <item>@string/i</item>
+        <item>@string/j</item>
+        <item>@string/k</item>
+        <item>@string/l</item>
+        <item>@string/m</item>
+        <item>@string/n</item>
+        <item>@string/o</item>
+        <item>@string/p</item>
+        <item>@string/q</item>
+        <item>@string/r</item>
+        <item>@string/s</item>
+        <item>@string/t</item>
+        <item>@string/u</item>
+        <item>@string/v</item>
+        <item>@string/w</item>
+        <item>@string/x</item>
+        <item>@string/y</item>
+        <item>@string/z</item>
+        <item>@string/well_character</item>
+    </array>
+    <array name="super_sleep_key_word">
+        <item>mediatek</item>
+        <item>qcom</item>
+        <item>clock</item>
+        <item>calendar</item>
+        <item>oppo</item>
+        <item>realme</item>
+        <item>heytap</item>
+        <item>coloros</item>
+        <item>nearme</item>
+        <item>oplus</item>
+    </array>
+    <array name="super_sleep_white_list">
+        <item>tencent.mm</item>
+        <item>tencent.mobileqq</item>
+        <item>com.android.emails</item>
+        <item>whatsapp</item>
+        <item>facebook</item>
+        <item>com.truecaller</item>
+        <item>org.telegram.messenger</item>
+        <item>com.opera.mini.native</item>
+        <item>com.bingo.livetalk</item>
+        <item>com.imo.android.imoim</item>
+        <item>com.jio.rilconferences</item>
+        <item>com.next.innovation.takatak</item>
+        <item>com.eterno.shortvideos</item>
+        <item>in.mohalla.sharechat</item>
+        <item>com.guidemoj.videostatus</item>
+        <item>com.snapchat.android</item>
+        <item>com.android.emails</item>
+        <item>com.roposo.android</item>
+        <item>com.vivashow.share.video.chat</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>2 days ago</item>
+    </array>
+</resources>

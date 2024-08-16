@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <group android:name="_R_G">
+        <group
+            android:name="_R_G_L_1_G"
+            android:translateX="35.998"
+            android:translateY="36.349">
+            <path
+                android:name="_R_G_L_1_G_D_0_P_0"
+                android:fillColor="?attr/couiColorControls"
+                android:pathData=" M-20.07 -7.84 C-20.07,-7.84 -1.7,10.53 -1.7,10.53 C-0.76,11.47 0.76,11.47 1.7,10.53 C1.7,10.53 20.07,-7.84 20.07,-7.84 C20.07,-7.84 16.68,-11.23 16.68,-11.23 C16.68,-11.23 0,5.44 0,5.44 C0,5.44 -16.68,-11.23 -16.68,-11.23 C-16.68,-11.23 -20.07,-7.84 -20.07,-7.84c "
+                android:fillAlpha="1"
+                android:fillType="nonZero"/>
+        </group>
+        <group
+            android:name="_R_G_L_0_G"
+            android:translateX="36"
+            android:translateY="35.649">
+            <path
+                android:name="_R_G_L_0_G_D_0_P_0"
+                android:fillColor="?attr/couiColorControls"
+                android:pathData=" M1.7 -10.53 C0.76,-11.47 -0.76,-11.47 -1.7,-10.53 C-1.7,-10.53 -20.07,7.84 -20.07,7.84 C-20.07,7.84 -16.68,11.24 -16.68,11.24 C-16.68,11.24 0,-5.44 0,-5.44 C0,-5.44 16.68,11.24 16.68,11.24 C16.68,11.24 20.07,7.84 20.07,7.84 C20.07,7.84 1.7,-10.53 1.7,-10.53c "
+                android:fillAlpha="0"
+                android:fillType="nonZero"/>
+        </group>
+    </group>
+    <group android:name="time_group"/>
+</vector>

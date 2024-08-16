@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one_key_entry_battery_level_text_size">13.71dp</dimen>
+    <dimen name="one_key_entry_button_height">50.29dp</dimen>
+    <dimen name="one_key_entry_button_margin_top">14.86dp</dimen>
+    <dimen name="one_key_entry_button_width">173.71dp</dimen>
+    <dimen name="one_key_entry_charging_layout_margin_top">17.14dp</dimen>
+    <dimen name="one_key_entry_charging_text_size">18.29dp</dimen>
+    <dimen name="one_key_entry_head_margin_top">116.57dp</dimen>
+    <dimen name="one_key_entry_issue_tips_padding_top">20.57dp</dimen>
+    <dimen name="one_key_entry_issue_tips_text_size">13.71dp</dimen>
+    <dimen name="one_key_entry_issues_margin_top">133.34dp</dimen>
+    <dimen name="one_key_entry_preference_padding_top">17.14dp</dimen>
+    <dimen name="one_key_entry_remain_time_distance">4.57dp</dimen>
+    <dimen name="one_key_entry_remain_time_height">83.05dp</dimen>
+    <dimen name="one_key_entry_remain_time_num_size">62.86dp</dimen>
+    <dimen name="one_key_entry_remain_time_padding_top">21.71dp</dimen>
+    <dimen name="one_key_entry_remain_time_text_size">16dp</dimen>
+    <dimen name="one_key_entry_remain_time_text_to_bottom">6.86dp</dimen>
+    <dimen name="one_key_entry_remain_time_width_one">16dp</dimen>
+    <dimen name="one_key_entry_remain_time_width_two">32dp</dimen>
+    <dimen name="one_key_main_icon_margin_top">125.71dp</dimen>
+    <dimen name="one_key_main_issue_tips">80.77dp</dimen>
+    <dimen name="one_key_main_margin_left">80dp</dimen>
+    <dimen name="one_key_main_margin_right">80dp</dimen>
+    <dimen name="one_key_main_margin_top">11.43dp</dimen>
+    <dimen name="one_key_main_status_text_margin_top">16dp</dimen>
+    <dimen name="toolbar_margin_top">11.43dp</dimen>
+</resources>

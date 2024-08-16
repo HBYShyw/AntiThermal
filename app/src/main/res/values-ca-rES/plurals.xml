@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d element es pot optimitzar</item>
+        <item quantity="other">%d elements es poden optimitzar</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d element optimitzat</item>
+        <item quantity="other">%d elements optimitzats</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimització disponible</item>
+        <item quantity="other">%d optimitzacions disponibles</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d seleccionat</item>
+        <item quantity="other">%d seleccionats</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova notificació</item>
+        <item quantity="other">%d noves notificacions</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Es desactiva automàticament si el vostre telèfon no detecta un dispositiu per carregar-se en %d minut.</item>
+        <item quantity="other">Es desactiva automàticament si el vostre telèfon no detecta un dispositiu per carregar-se en %d minuts.</item>
+    </plurals>
+</resources>

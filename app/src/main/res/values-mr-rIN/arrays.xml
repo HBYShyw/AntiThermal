@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>शेवटचा चार्ज 90% वर किंवा त्यापेक्षा जास्त</item>
+        <item>आज</item>
+        <item>काल</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>स्वच्छ करा</item>
+        <item>SD वर स्थलांतर करा</item>
+        <item>समजले</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>आज</item>
+        <item>काल</item>
+        <item>2 दिवसांपूर्वी</item>
+    </array>
+</resources>

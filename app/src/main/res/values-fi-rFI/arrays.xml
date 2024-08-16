@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Viimeisin lataus vähintään 90 %</item>
+        <item>Tänään</item>
+        <item>Eilen</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Puhdista</item>
+        <item>Siirrä SD-kortille</item>
+        <item>Selvä</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Tänään</item>
+        <item>Eilen</item>
+        <item>Toissapäivänä</item>
+    </array>
+</resources>

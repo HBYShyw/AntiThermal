@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d елемент може да бъде оптимизиран</item>
+        <item quantity="other">%d елемента могат да бъдат оптимизирани</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d оптимизиран елемент</item>
+        <item quantity="other">%d оптимизирани елемента</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d налична оптимизация</item>
+        <item quantity="other">%d налични оптимизации</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d избран</item>
+        <item quantity="other">%d избрани</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Изключва се автоматично, ако телефонът Ви не открие устройство, което да бъде заредено, в рамките на %d минута.</item>
+        <item quantity="other">Изключва се автоматично, ако телефонът ви не открие устройство, което да бъде заредено, в рамките на %d минути.</item>
+    </plurals>
+</resources>

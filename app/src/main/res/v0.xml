@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@+id/vector_"
+        android:background="@drawable/ic_yes"
+        android:layout_width="16.06dp"
+        android:layout_height="11.28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:forceDarkAllowed="false"/>
+</merge>

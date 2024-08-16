@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="other">%d 항목 최적화 가능</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="other">%d개 항목 최적화됨</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="other">%d개의 최적화 사용 가능</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">새 알림 %d개</item>
+        <item quantity="other">새 알림 %d개</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="other">%d개 선택됨</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d개의 새로운 알림</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="other">휴대전화에서 %d분 안에 충전할 장치를 찾지 못하면 자동으로 꺼집니다.</item>
+    </plurals>
+</resources>

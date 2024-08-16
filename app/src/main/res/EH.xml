@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="158dp"
+    android:width="158dp"
+    android:viewportWidth="158"
+    android:viewportHeight="158">
+    <path
+        android:fillColor="@drawable/res_0x7f0801a9_ic_card_charging__0"
+        android:pathData="M0,0L158,0L158,158L0,158Z"/>
+</vector>

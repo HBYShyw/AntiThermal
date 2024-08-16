@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="zero">914349_%d items can be optimized</item>
+        <item quantity="one">914348_%d item can be optimized</item>
+        <item quantity="two">914351_%d items can be optimized</item>
+        <item quantity="few">914350_%d items can be optimized</item>
+        <item quantity="many">914352_%d items can be optimized</item>
+        <item quantity="other">914347_%d items can be optimized</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="zero">913856_%d items optimized</item>
+        <item quantity="one">913854_%d item optimized</item>
+        <item quantity="two">913858_%d items optimized</item>
+        <item quantity="few">913857_%d items optimized</item>
+        <item quantity="many">913859_%d items optimized</item>
+        <item quantity="other">913855_%d items optimized</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="zero">910326_%d optimizations available</item>
+        <item quantity="one">910324_%d optimization available</item>
+        <item quantity="two">910328_%d optimizations available</item>
+        <item quantity="few">910327_%d optimizations available</item>
+        <item quantity="many">910329_%d optimizations available</item>
+        <item quantity="other">910325_%d optimizations available</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="zero">914356_%d selected</item>
+        <item quantity="one">914354_%d selected</item>
+        <item quantity="two">914358_%d selected</item>
+        <item quantity="few">914357_%d selected</item>
+        <item quantity="many">914359_%d selected</item>
+        <item quantity="other">914355_%d selected</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">875908_%d new notifications</item>
+        <item quantity="one">840949_%d new notification</item>
+        <item quantity="two">875911_%d new notifications</item>
+        <item quantity="few">875909_%d new notifications</item>
+        <item quantity="many">875910_%d new notifications</item>
+        <item quantity="other">840948_%d new notifications</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="zero">872819_ Automatically turns off if your phone does not detect a device to charge within %d minutes.</item>
+        <item quantity="one">144130_ Automatically turns off if your phone does not detect a device to charge within %d minute.</item>
+        <item quantity="two">872822_ Automatically turns off if your phone does not detect a device to charge within %d minutes.</item>
+        <item quantity="few">872820_ Automatically turns off if your phone does not detect a device to charge within %d minutes.</item>
+        <item quantity="many">872821_ Automatically turns off if your phone does not detect a device to charge within %d minutes.</item>
+        <item quantity="other">836687_ Automatically turns off if your phone does not detect a device to charge within %d minutes.</item>
+    </plurals>
+</resources>

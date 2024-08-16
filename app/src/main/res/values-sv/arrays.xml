@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Senaste laddning till 90 % eller mer</item>
+        <item>Idag</item>
+        <item>Igår</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Rensa</item>
+        <item>Migrera till SD</item>
+        <item>Jag förstår</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Idag</item>
+        <item>Igår</item>
+        <item>2 dagar sedan</item>
+    </array>
+</resources>

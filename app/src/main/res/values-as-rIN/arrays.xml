@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>অন্তিম চাৰ্জ 90% বা ওপৰৰ</item>
+        <item>আজি</item>
+        <item>কালি</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>পৰিষ্কাৰ কৰক</item>
+        <item>SD-লৈ মাইগ্ৰেট কৰক</item>
+        <item>বুজি পালোঁ</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>আজি</item>
+        <item>কালি</item>
+        <item>2 দিন পুর্বে</item>
+    </array>
+</resources>

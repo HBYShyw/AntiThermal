@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.panel.IgnoreWindowInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:fitsSystemWindows="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/panel_outside"
+        android:background="@color/coui_color_mask"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:soundEffectsEnabled="false"
+        android:importantForAccessibility="no"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:fitsSystemWindows="true"
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/touch_outside"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <com.coui.appcompat.panel.COUIPanelPercentFrameLayout
+            android:layout_gravity="top|center_horizontal"
+            android:id="@+id/design_bottom_sheet"
+            android:background="@color/coui_color_surface"
+            android:clipChildren="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            app:gridNumber="@integer/grid_guide_column_bottom_sheet_dialog"
+            app:layout_behavior="@string/bottom_sheet_behavior"
+            app:maxPanelHeight="@dimen/coui_panel_max_height"
+            app:percentMode="reMeasureMode"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.coui.appcompat.panel.IgnoreWindowInsetsFrameLayout>

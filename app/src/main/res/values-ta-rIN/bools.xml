@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="coui_support_elegant_text_height">true</bool>
+</resources>

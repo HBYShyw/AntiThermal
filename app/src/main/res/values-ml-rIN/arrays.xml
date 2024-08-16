@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>90%-ഓ മുകളിലോ ഉള്ള അവസാനത്തെ ചാർജ്ജ്</item>
+        <item>ഇന്ന്</item>
+        <item>ഇന്നലെ</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ക്ലീനപ്പ് ചെയ്യുക</item>
+        <item>SD-യിലേക്ക് മൈഗ്രേറ്റ് ചെയ്യുക</item>
+        <item>മനസ്സിലായി</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>ഇന്ന്</item>
+        <item>ഇന്നലെ</item>
+        <item>മിനിഞ്ഞാന്ന്</item>
+    </array>
+</resources>

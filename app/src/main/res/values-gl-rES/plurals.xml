@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d elemento pode optimizarse</item>
+        <item quantity="other">%d elementos poden optimizarse</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d elemento optimizado</item>
+        <item quantity="other">%d elementos optimizados</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimización dispoñible</item>
+        <item quantity="other">%d optimizacións dispoñibles</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d seleccionado</item>
+        <item quantity="other">%d seleccionados</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d novas notificacións</item>
+        <item quantity="other">%d novas notificacións</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Desactívase automaticamente se o teléfono non detecta un dispositivo no que cargar en %d minuto.</item>
+        <item quantity="other">Desactívase automaticamente se o teléfono non detecta un dispositivo no que cargar en %d minutos.</item>
+    </plurals>
+</resources>

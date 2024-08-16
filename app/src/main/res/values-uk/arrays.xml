@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="oplus_data_not_enough_array">
+        <item>Перейти до очищення</item>
+        <item>Перенести на SD-картку</item>
+        <item>ОК</item>
+    </array>
+</resources>

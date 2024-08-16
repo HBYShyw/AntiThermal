@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2022090501</version>
+    <filter-name>sys_oguard_config_list</filter-name>
+    <module-version>v1.0</module-version>
+    <FilterAgg-TAG>
+        <!-- filter special wakelock tag-->
+        <wakelockTag tag="*alarm*#*launch*#*dexopt*"/>
+        <!-- filter special alarm tag-->
+        <alarmTag tag="" />
+        <!-- agg special sensor type-->
+        <!--android.sensor.accelerometer, android.sensor.magnetic_field, android.sensor.gyroscope, android.sensor.light-->
+        <sensorTag tag="android.sensor.accelerometer#android.sensor.magnetic_field#android.sensor.gyroscope#android.sensor.light"/>
+    </FilterAgg-TAG>
+    <!-->global black list<-->
+    <!--><globalBlackPkgList name="com.autonavi.minimap"/><-->
+    <monitorInterval time="300"/>
+
+    <sysAppConfig enable="false">
+        <!--When the system control application exceeds the limit threshold, whether to execute actions-->
+        <couldExecuteAction enable="false" />
+
+        <group type="sys_ctrl_apps" version="1.0">
+            <!--><item pkg="com.heytap.browser" policy="G1"/><-->
+            <!--><item pkg="com.heytap.market" policy="G2"/><-->
+        </group>
+
+        <postaction>
+            <action id="1" name="scron" />
+        </postaction>
+
+        <policy type="group" version="1.0">
+            <group inherit="" name="G1">
+                <resource name="wakelock">
+                    <action duration="300000" name="proxy_wakelock" postaction="1" threshold="300000">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="traffic">
+                    <action name="kill" duration="300000" postaction="" threshold="60">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="cpu">
+                    <!-->add action according to the processing severity of action<-->
+                    <action name="kill" duration="600000" postaction="" threshold="12">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="alarm">
+                    <action duration="300000" name="unify_alarm" postaction="1" threshold="12">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="gps">
+                    <action duration="300000" name="kill" postaction="" threshold="300000">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="ble_scan">
+                    <action duration="300000" name="kill" postaction="" threshold="300000">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="wifi_scan">
+                    <action duration="300000" name="kill" postaction="" threshold="180">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+                <resource name="sensor">
+                    <action duration="300000" name="kill" postaction="" threshold="300000">
+                        <item condition="isInBackgroud" param="" result="true"/>
+                        <item condition="isAudioPlaying" param="" result="false"/>
+                        <item condition="isNavigating" param="" result="false"/>
+                        <item condition="isDownloading" param="" result="false"/>
+                        <item condition="isScreenOff" param="" result="true"/>
+                        <item condition="isCalling" param="" result="false"/>
+                    </action>
+                </resource>
+            </group>
+            <group inherit="" name="G2">
+            </group>
+            <group inherit="" name="G3">
+            </group>
+            <group inherit="" name="G4">
+            </group>
+        </policy>
+    </sysAppConfig>
+    <thirdAppConfig enable="false" version="1.0">
+        <!-->name:package name, type:cpu, alarm, gps, sensor, wakelock, wifi_scan, bt_scan, net_traffic<-->
+        <!--><WhiteList name="com.twitter.android" type="00000001"/><-->
+
+        <!-->name:package name, type:cpu, alarm, gps, sensor, wakelock, wifi_scan, bt_scan, net_traffic<-->
+        <!--><BlackList name="com.google.android.youtube" type="10000011"/><-->
+
+        <threshold>
+            <resource name="cpu" enable="true" high="300" serious="600"/>
+            <resource name="alarm" enable="true" high="12" serious="30"/>
+            <resource name="gps" enable="true" high="300" serious="600"/>
+            <resource name="sensor" enable="true" high="300" serious="600"/>
+            <resource name="wakelock" enable="true" high="300" serious="600"/>
+            <resource name="wifi_scan" enable="true" high="180" serious="360"/>
+            <resource name="bt_scan" enable="true" high="300" serious="600"/>
+            <resource name="net_traffic" enable="true" high="60" serious="120"/>
+        </threshold>
+
+        <resource name="cpu">
+            <item duration="600" value="0.1 1.0"/><!--10min [10%, 100%]-->
+            <item duration="1200" value="0.075 0.1"/> <!--20min [7.5%, 10%]-->
+            <item duration="3600" value="0.025 0.075"/> <!--60min [2.5%, 7.5%]-->
+            <item duration="7200" value="0.0125 0.025"/><!--120min [1.25%, 2.5%]-->
+        </resource>
+
+        <resource name="alarm">
+            <item name="freq" value="180"/> <!--3min-->
+        </resource>
+    </thirdAppConfig>
+</filter-conf>

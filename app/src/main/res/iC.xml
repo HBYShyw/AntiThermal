@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/power_layout_viewpage_margin_top"/>
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/power_ranking_appBarLayout"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/second_activity_behavior">
+        <com.coui.appcompat.toolbar.COUIToolbar
+            android:id="@+id/power_ranking_layout_toolbar"
+            android:paddingTop="@dimen/toolbar_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/toolbar_height"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:supportTitleTextAppearance="@style/textAppearanceSecondTitle"/>
+        <com.coui.appcompat.tablayout.COUITabLayout
+            android:id="@+id/ranking_layout"
+            android:layout_marginTop="@dimen/power_layout_toolbar_margin"
+            app:couiTabSelectedTextColor="?attr/couiColorPrimary"
+            app:couiTabTextColor="@color/tab_text"
+            style="@style/COUISmallTabLayoutStyle"/>
+        <View
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/divider_line"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_background_height"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:alpha="0"
+            android:forceDarkAllowed="false"/>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

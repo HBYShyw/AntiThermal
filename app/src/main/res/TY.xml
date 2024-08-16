@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/power_usage_details">
+    <com.oplus.powermanager.fuelgaue.basic.customized.BatteryLevelViewPreference
+        android:selectable="false"
+        android:key="battery_level_view_preference"/>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:key="power_ranking_category"
+        app:isFirstCategory="true">
+        <com.oplus.powermanager.powercurve.graph.PowerCurvePreference android:key="curve"/>
+        <com.oplus.powermanager.fuelgaue.basic.customized.BatteryUseTimePreference
+            android:selectable="false"
+            android:key="battery_use_time_preference"/>
+        <com.oplus.powermanager.fuelgaue.basic.customized.PowerRankingPreference
+            android:title="@string/app_power_consumer_title_new"
+            android:key="power_comsumption_ranking_pref"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="power_save_category">
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/rm_gt_mode_tile_title"
+            android:key="rm_gt_mode_switch_pref"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/power_save_mode_title"
+            android:key="power_save_preference"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/battery_health_title"
+            android:key="battery_health_preference"/>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:title="@string/smart_charge_protection_title"
+            android:key="smart_charge_protection_switch_in_more"
+            android:summary="@string/smart_charge_protection_content"/>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:title="@string/regular_charge_protection_title"
+            android:key="regular_charge_protection_switch_in_more"
+            android:summary="@string/regular_charge_protection_content"/>
+        <com.coui.appcompat.preference.COUISwitchPreference
+            android:title="@string/battery_speed_charge_switch"
+            android:key="speed_charge_switch_pref"
+            app:isPreferenceVisible="false"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/smart_charge_mode_title"
+            android:key="smart_charge_preference"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/wireless_reverse_charging_title"
+            android:key="wireless_reverse_charging_switch"
+            android:defaultValue="false"
+            app:isPreferenceVisible="false"/>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/wireless_charging_settings"
+            android:key="wireless_charging_settings_pref"
+            app:isPreferenceVisible="false"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/battery_ui_optimization_more_settings_new"
+            android:key="intelligent_power_saving_scene_pref"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIRecommendedPreference android:key="battery_recommended_pref"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <Preference
+        android:enabled="false"
+        android:layout="@layout/bottom_layout"
+        android:key="page_bottom"/>
+</androidx.preference.PreferenceScreen>

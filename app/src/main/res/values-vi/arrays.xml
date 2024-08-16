@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Sạc lần trước đến 90% trở lên</item>
+        <item>Hôm nay</item>
+        <item>Ngày mai</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Dọn dẹp</item>
+        <item>Di chuyển sang SD</item>
+        <item>Đã hiểu</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Hôm nay</item>
+        <item>Hôm qua</item>
+        <item>Hôm kia</item>
+    </array>
+</resources>

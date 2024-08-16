@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Viimane laadimine tesemele 90% või kõrgemale</item>
+        <item>Täna</item>
+        <item>Eile</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Puhasta</item>
+        <item>Teisalda SD-kaardile</item>
+        <item>Selge</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Täna</item>
+        <item>Eile</item>
+        <item>Kaks päeva tagasi</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>90% හෝ ඊට වැඩි පසුගිය අය කිරීම</item>
+        <item>අද</item>
+        <item>ඊයේ</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>පිරිසිදු කරන්න</item>
+        <item>SD වෙත සංක්‍රමණය කරන්න</item>
+        <item>එය වැටහුණි</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>අද</item>
+        <item>ඊයේ</item>
+        <item>පෙරේදා</item>
+    </array>
+</resources>

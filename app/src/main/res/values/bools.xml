@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="coui_button_anim_enable">true</bool>
+    <bool name="coui_config_actionMenuItemAllCaps">false</bool>
+    <bool name="coui_support_elegant_text_height">false</bool>
+    <bool name="coui_switch_theme_enable">false</bool>
+    <bool name="is_big_layout">false</bool>
+    <bool name="is_coui_bottom_sheet_dialog_in_big_screen">false</bool>
+    <bool name="is_coui_bottom_sheet_ime_adjust_in_constraint_layout">true</bool>
+    <bool name="is_dialog_preference_immersive">false</bool>
+    <bool name="is_ignore_nav_height_in_panel_ime_adjust">false</bool>
+    <bool name="is_immsersive_theme">false</bool>
+    <bool name="is_land_layout">false</bool>
+    <bool name="is_normal_layout">true</bool>
+    <bool name="is_seek_bar_support_progress_highlight">false</bool>
+    <bool name="is_small_layout">false</bool>
+    <bool name="is_small_window">false</bool>
+    <bool name="is_status_white">false</bool>
+    <bool name="list_status_white_enabled">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+</resources>

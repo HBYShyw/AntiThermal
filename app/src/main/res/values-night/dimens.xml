@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_fill_alpha">0.1</dimen>
+    <dimen name="coui_button_press_black_alpha">0.2</dimen>
+    <dimen name="coui_lock_pattern_outer_circle_max_alpha">0.2</dimen>
+    <dimen name="coui_numeric_keyboard_dark_circle_max_alpha">0.12</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_bottom_sheet_bg_bottom_corner_radius">24dp</dimen>
+    <dimen name="coui_tool_navigation_edge_item_padding">12dp</dimen>
+    <dimen name="coui_tool_navigation_item_height">56dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24dp</dimen>
+</resources>

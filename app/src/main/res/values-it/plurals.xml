@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">È possibile ottimizzare %d elemento</item>
+        <item quantity="other">È possibile ottimizzare %d elementi</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d elemento ottimizzato</item>
+        <item quantity="other">%d elementi ottimizzati</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ottimizzazione disponibile</item>
+        <item quantity="other">%d ottimizzazioni disponibili</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d selezionato</item>
+        <item quantity="other">%d selezionati</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Si disattiva automaticamente se il tuo telefono non rileva un dispositivo da ricaricare entro %d minuto.</item>
+        <item quantity="other">Si disattiva automaticamente se il tuo telefono non rileva un dispositivo da ricaricare entro %d minuti.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="power_ranking_sipper_none_layout_margin_top">32dp</dimen>
+    <dimen name="power_ranking_sipper_refresh_layout_margin_top">63dp</dimen>
+</resources>

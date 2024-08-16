@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Cas terakhir kepada 90% atau lebih tinggi</item>
+        <item>Hari Ini</item>
+        <item>Semalam</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Bersihkan</item>
+        <item>Hijrahkan ke SD</item>
+        <item>Faham</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Hari ini</item>
+        <item>Semalam</item>
+        <item>2 hari lalu</item>
+    </array>
+</resources>

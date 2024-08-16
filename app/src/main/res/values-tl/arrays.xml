@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Huling charge sa 90% o mas mataas</item>
+        <item>Ngayong Araw</item>
+        <item>Kahapon</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>I-clean up</item>
+        <item>Ilipat sa SD</item>
+        <item>Nakuha ko</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Ngayong araw</item>
+        <item>Kahapon</item>
+        <item>2 araw na</item>
+    </array>
+</resources>

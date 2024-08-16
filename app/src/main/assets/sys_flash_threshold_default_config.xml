@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!--function for rom update parameter-->
+    <version>2021083000</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_flash_threshold_config</filter-name>
+    <flash name="default">
+        <param size="16" value="1875"></param>
+        <param size_low="16" value_low="1200"></param>
+        <param size="32" value_low="5000"></param>
+        <param size_low="32" value_low="1500"></param>
+        <param size="64" value="6500"></param>
+        <param size_low="64" value_low="1500"></param>
+        <param size="128" value="10000"></param>
+        <param size_low="128" value_low="1500"></param>
+        <param size="256" value="10000"></param>
+        <param size_low="256" value_low="1500"></param>
+        <param size="512" value="10000"></param>
+        <param size_low="512" value_low="1500"></param>
+    </flash>
+</filter-conf>
+

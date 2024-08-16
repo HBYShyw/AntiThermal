@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_action_menu_item_view_margin_end">8dp</dimen>
+    <dimen name="coui_bottom_sheet_bg_bottom_corner_radius">0dp</dimen>
+    <dimen name="coui_component_scan_view_icon_margin_horizontal">106dp</dimen>
+    <dimen name="coui_component_search_history_padding_end">20dp</dimen>
+    <dimen name="coui_component_search_history_padding_start">20dp</dimen>
+    <dimen name="coui_floating_button_size">64dp</dimen>
+    <dimen name="coui_full_page_statement_button_width">280dp</dimen>
+    <dimen name="coui_larger_btn_width">280dp</dimen>
+    <dimen name="coui_medium_btn_width">245dp</dimen>
+    <dimen name="coui_navigation_item_text_size">14dp</dimen>
+    <dimen name="coui_search_view_padding_end_in_toolbar">24dp</dimen>
+    <dimen name="coui_search_view_padding_end_in_toolbar_with_navigation">24dp</dimen>
+    <dimen name="coui_search_view_padding_start_in_toolbar">24dp</dimen>
+    <dimen name="coui_search_view_padding_start_in_toolbar_with_navigation">56dp</dimen>
+    <dimen name="coui_tool_navigation_edge_item_padding">44dp</dimen>
+    <dimen name="coui_tool_navigation_item_height">56dp</dimen>
+    <dimen name="layout_grid_margin_small">24dp</dimen>
+    <dimen name="tablayout_min_margin">24dp</dimen>
+</resources>

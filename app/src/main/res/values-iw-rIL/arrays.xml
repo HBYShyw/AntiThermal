@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>הטעינה האחרונה ל-90% ומעלה</item>
+        <item>היום</item>
+        <item>אתמול</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>ניקוי</item>
+        <item>העבר ל-SD</item>
+        <item>הבנתי</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>היום</item>
+        <item>אתמול</item>
+        <item>לפני יומיים</item>
+    </array>
+</resources>

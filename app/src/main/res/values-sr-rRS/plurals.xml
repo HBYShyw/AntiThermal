@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Automatski se isključuje ako telefon ne detektuje uređaj za punjenje kroz %d minut.</item>
+        <item quantity="other">Automatski se isključuje ako telefon ne detektuje uređaj za punjenje kroz %d minuta.</item>
+    </plurals>
+</resources>

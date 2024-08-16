@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <translate
+        android:interpolator="@anim/android_alert_dialog_enter"
+        android:duration="250"
+        android:fillBefore="false"
+        android:fillAfter="true"
+        android:fromYDelta="100%p"
+        android:toYDelta="0%p"
+        android:fillEnabled="true"/>
+</set>

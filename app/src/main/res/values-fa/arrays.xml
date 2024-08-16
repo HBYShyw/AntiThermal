@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>آخرین شارژ 90 درصدی یا بالاتر</item>
+        <item>امروز</item>
+        <item>دیروز</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>پاک‌سازی</item>
+        <item>انتقال به SD</item>
+        <item>متوجه شدم</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>امروز</item>
+        <item>دیروز</item>
+        <item>پریروز</item>
+    </array>
+</resources>

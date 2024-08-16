@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Last charge to 90% or above</item>
+        <item>Today</item>
+        <item>Yesterday</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Clean up</item>
+        <item>Migrate to SD</item>
+        <item>Got it</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>2 Days Ago</item>
+    </array>
+</resources>

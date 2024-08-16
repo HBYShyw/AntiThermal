@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d item kan worden geoptimaliseerd</item>
+        <item quantity="other">%d items kunnen worden geoptimaliseerd</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d item geoptimaliseerd</item>
+        <item quantity="other">%d items geoptimaliseerd</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimalisatie beschikbaar</item>
+        <item quantity="other">%d optimalisaties beschikbaar</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d geselecteerd</item>
+        <item quantity="other">%d geselecteerd</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Wordt automatisch uitgeschakeld als uw telefoon binnen %d minuut geen apparaat detecteert dat moet worden opgeladen.</item>
+        <item quantity="other">Wordt automatisch uitgeschakeld als uw telefoon binnen %d minuten geen apparaat detecteert dat moet worden opgeladen.</item>
+    </plurals>
+</resources>

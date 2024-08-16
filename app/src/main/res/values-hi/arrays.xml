@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>पिछली बार 90% या इससे अधिक चार्ज किया गया</item>
+        <item>आज</item>
+        <item>कल</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>साफ करें</item>
+        <item>SD पर माइग्रेट करें</item>
+        <item>समझ गए</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>आज</item>
+        <item>कल</item>
+        <item>दो दिन पहले</item>
+    </array>
+</resources>

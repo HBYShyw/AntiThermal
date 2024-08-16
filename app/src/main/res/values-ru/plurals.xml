@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">Можно оптимизировать %d элемент</item>
+        <item quantity="few">Можно оптимизировать %d элемента</item>
+        <item quantity="many">Можно оптимизировать %d элемента</item>
+        <item quantity="other">Можно оптимизировать %d элемента</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">Оптимизирован %d элемент</item>
+        <item quantity="few">Оптимизировано %d элемента</item>
+        <item quantity="many">Оптимизировано %d элементов</item>
+        <item quantity="other">Оптимизировано %d элементов</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">Доступна %d оптимизация</item>
+        <item quantity="few">Доступны %d оптимизации</item>
+        <item quantity="many">Доступны %d оптимизаций</item>
+        <item quantity="other">Доступны %d оптимизаций</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано: %d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">Новых уведомлений: %d</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Автоматически выключается, если вашему телефону не удается обнаружить устройство для зарядки в течение %d мин.</item>
+        <item quantity="few">Функция автоматически выключается, если телефон не обнаруживает устройство в течение %d минут.</item>
+        <item quantity="many">Функция автоматически выключается, если телефон не обнаруживает устройство в течение %d минут.</item>
+        <item quantity="other">Автоматически выключается, если вашему телефону не удается обнаружить устройство для зарядки в течение %d мин.</item>
+    </plurals>
+</resources>

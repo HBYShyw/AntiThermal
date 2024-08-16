@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/oplus_category_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/oplus_category_top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/support_preference_category_layout_divider_parent_height">
+        <View
+            android:background="@color/coui_preference_category_divider_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/support_preference_category_layout_divider_height"
+            android:layout_marginStart="@dimen/support_preference_category_layout_divider_margin_start"
+            android:layout_marginEnd="@dimen/support_preference_category_layout_divider_margin_end"
+            android:forceDarkAllowed="false"/>
+    </LinearLayout>
+    <TextView
+        android:gravity="bottom"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="@dimen/support_preference_category_layout_title_margin_start"
+        android:layout_marginEnd="@dimen/support_preference_category_layout_title_margin_end"
+        style="@style/COUIPreferenceCategoryStyle.Title"/>
+</LinearLayout>

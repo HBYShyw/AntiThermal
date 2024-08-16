@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.dialog.widget.COUIAlertDialogMaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentPanel"
+    style="@style/COUIAlertDialogLayoutStyle">
+    <com.coui.appcompat.dialog.widget.COUIAlertDialogClipCornerLinearLayout style="@style/COUIAlertDialogClipCornerLayoutStyle">
+        <LinearLayout
+            android:id="@+id/topPanel"
+            style="@style/COUIAlertDialogTopPanelStyle">
+            <LinearLayout
+                android:id="@+id/title_template"
+                style="@style/COUIAlertDialogTitleTemplateStyle">
+                <ImageView
+                    android:id="@android:id/icon"
+                    style="@style/COUIAlertDialogIconStyle"/>
+                <com.coui.appcompat.dialog.widget.COUIDialogTitle
+                    android:ellipsize="end"
+                    android:id="@+id/alertTitle"
+                    android:maxLines="5"
+                    style="@style/COUIAlertDialogTitleStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/contentPanel"
+            android:layout_weight="1"
+            style="@style/COUIAlertDialogContentPanelStyle">
+            <com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView
+                android:id="@+id/scrollView"
+                android:paddingTop="@dimen/center_dialog_scroll_padding_top"
+                android:paddingBottom="@dimen/center_dialog_scroll_padding_bottom_withouttitle"
+                coui:scrollViewMaxHeight="@dimen/coui_alert_dialog_builder_content_max_height"
+                coui:scrollViewMinHeight="@dimen/coui_alert_dialog_builder_content_min_height"
+                style="@style/COUIAlertDialogMessageScrollViewStyle">
+                <com.coui.appcompat.dialog.widget.COUIAlertDialogMessageView
+                    android:id="@android:id/message"
+                    style="@style/COUIAlertDialogMessageStyle"/>
+            </com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView>
+            <LinearLayout
+                android:id="@+id/listPanel"
+                android:layout_marginTop="@dimen/coui_list_dialog_list_panel_margin_top"
+                android:layout_weight="1"
+                style="@style/COUIAlertDialogListPanelStyle"/>
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/customPanel"
+            android:layout_weight="1"
+            style="@style/COUIAlertDialogCustomPanelStyle">
+            <FrameLayout
+                android:id="@+id/custom"
+                style="@style/COUIAlertDialogCustomStyle"/>
+        </FrameLayout>
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/coui_bottom_alert_dialog_button_panel"/>
+    </com.coui.appcompat.dialog.widget.COUIAlertDialogClipCornerLinearLayout>
+</com.coui.appcompat.dialog.widget.COUIAlertDialogMaxLinearLayout>

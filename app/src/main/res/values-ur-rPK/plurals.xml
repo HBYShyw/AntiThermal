@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">‫‏%d‬ آئٹم کو بہتر بنایا جا سکتا ہے</item>
+        <item quantity="other">‫‏%d‬ آئٹمز کو بہتر بنایا جا سکتا ہے</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">‫‏%d‬ آئٹم انتہائی بہتر بنایا گیا ہے</item>
+        <item quantity="other">‫‏%d‬ آئٹمز کو انتہائی بہتر بنایا گیا ہے</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">‫‏%d‬ بہتری دستیاب ہے</item>
+        <item quantity="other">‫‏%d‬ بہتریاں دستیاب ہیں</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">‫‏%d‬ کو منتخب کیا گیا</item>
+        <item quantity="other">‫‏%d‬ کو منتخب کیا گیا</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d نئی اطلاع</item>
+        <item quantity="other">%d نئے اعلانات</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">اگر آپ کے فون کو %d منٹ کے اندر چارج کرنے کے لیے کسی آلے کا سراغ نہیں ملتا تو یہ خود بخود آف ہو جاتا ہے۔</item>
+        <item quantity="other">اگر آپ کے فون کو %d منٹ کے اندر چارج کرنے کے لیے کسی آلے کا سراغ نہیں ملتا تو یہ خود بخود آف ہو جاتا ہے۔</item>
+    </plurals>
+</resources>

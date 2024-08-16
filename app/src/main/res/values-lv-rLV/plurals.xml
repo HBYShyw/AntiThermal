@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="zero">Var optimizēt %d vienumus</item>
+        <item quantity="one">Var optimizēt %d vienumu</item>
+        <item quantity="other">Var optimizēt %d vienumus</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="zero">%d optimizēti vienumi</item>
+        <item quantity="one">%d optimizēts vienums</item>
+        <item quantity="other">%d optimizēti vienumi</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="zero">Pieejamas %d optimizācijas</item>
+        <item quantity="one">Pieejama %d optimizācija</item>
+        <item quantity="other">Pieejamas %d optimizācijas</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="zero">%d atlasīti</item>
+        <item quantity="one">%d atlasīts</item>
+        <item quantity="other">%d atlasīti</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d jauni paziņojumi</item>
+        <item quantity="one">Jauns %d paziņojums</item>
+        <item quantity="other">Jauni %d paziņojumi</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="zero">Automātiski izslēdzas, ja jūsu tālrunis %d minūšu laikā nenosaka ierīci.</item>
+        <item quantity="one">Automātiski izslēdzas, ja tālrunis %d minūtes laikā neatrod ierīci, kas jāuzlādē.</item>
+        <item quantity="other">Automātiski izslēdzas, ja tālrunis %d minūšu laikā neatrod ierīci, kas jāuzlādē.</item>
+    </plurals>
+</resources>

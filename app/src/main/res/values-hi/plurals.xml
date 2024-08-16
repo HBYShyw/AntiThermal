@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d आइटम ऑप्टिमाइज किया जा सकता है</item>
+        <item quantity="other">%d आइटम ऑप्टिमाइज किए जा सकते हैं</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d आइटम ऑप्टिमाइज किया गया</item>
+        <item quantity="other">%d आइटम ऑप्टिमाइज किए गए</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d ऑप्टिमाइजेशन उपलब्ध है</item>
+        <item quantity="other">%d ऑप्टिमाइजेशन उपलब्ध हैं</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नई सूचनाएं</item>
+        <item quantity="other">%d नई सूचनाएं</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d चयनित</item>
+        <item quantity="other">%d चयनित</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d नई सूचना</item>
+        <item quantity="other">%d नई सूचनाएँ</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">यदि आपका फ़ोन चार्ज करने के लिए %d मिनट के भीतर किसी उपकरण का पता नहीं लगा पाता, तो स्वतः बंद हो जाता है।</item>
+        <item quantity="other">यदि आपका फ़ोन चार्ज करने के लिए %d मिनट के भीतर किसी उपकरण का पता नहीं लगा पाता, तो स्वतः बंद हो जाता है।</item>
+    </plurals>
+</resources>

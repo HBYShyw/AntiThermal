@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_layout"
+        android:background="@drawable/coui_alert_dialog_item_background"
+        android:paddingTop="@dimen/alert_dialog_list_item_padding_top"
+        android:paddingBottom="@dimen/alert_dialog_list_item_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/alert_dialog_list_item_min_height"
+        android:paddingStart="@dimen/alert_dialog_list_item_padding_left"
+        android:paddingEnd="@dimen/alert_dialog_list_item_padding_right"
+        android:forceDarkAllowed="false">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/coui_dialog_button_text_size"
+            android:textColor="?attr/couiColorPrimaryTextOnPopup"
+            android:gravity="center"
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/item_divider"
+        android:background="?attr/couiColorDivider"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/coui_list_divider_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/alert_dialog_list_item_padding_left"
+        android:forceDarkAllowed="false"/>
+</LinearLayout>

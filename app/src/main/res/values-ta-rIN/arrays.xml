@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>90% அல்லது அதற்கு மேல் கடைசி சார்ஜ்</item>
+        <item>இன்று</item>
+        <item>நேற்று</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>கிளீன்அப்</item>
+        <item>SD-க்கு நகர்த்து</item>
+        <item>புரிந்தது</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>இன்று</item>
+        <item>நேற்று</item>
+        <item>2 நாள் முன்</item>
+    </array>
+</resources>

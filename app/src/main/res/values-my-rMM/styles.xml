@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonBar.COUI" parent="@android:style/ButtonBar">
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0dp</item>
+    </style>
+    <style name="COUIDialogTextAppearance.Title" parent="@style/COUIDialogTextAppearance">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="TextAppearance.COUI.List.Title" parent="@style/couiTextAppearanceHeadline6">
+        <item name="android:textColor">@color/coui_preference_title_color</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="TextAppearance.COUI.Preference.Summary" parent="@style/couiTextAppearanceBody">
+        <item name="android:textColor">@color/coui_preference_secondary_text_color</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+    <style name="Widget.COUI.Button" parent="@style/Base.Widget.AppCompat.Button">
+        <item name="android:textAppearance">@style/couiTextAppearanceButton</item>
+        <item name="android:textSize">@dimen/coui_btn_text_size</item>
+        <item name="android:textColor">@color/coui_btn_default_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="disabledColor">?attr/couiBtnDrawableColorDisabled</item>
+        <item name="drawableColor">?attr/couiColorPrimary</item>
+        <item name="isShowLoadingText">false</item>
+        <item name="needVibrate">false</item>
+    </style>
+    <style name="Widget.COUI.Button.Dark" parent="@style/Widget.COUI.Button">
+        <item name="android:textColor">@color/coui_btn_default_text_color</item>
+    </style>
+    <style name="Widget.COUI.Button.Large" parent="@style/Widget.COUI.Button">
+        <item name="android:textAppearance">@style/couiTextAppearanceButton</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/coui_btn_large_width_min</item>
+        <item name="android:minHeight">@dimen/coui_btn_large_height_min</item>
+        <item name="animEnable">@bool/coui_button_anim_enable</item>
+        <item name="brightness">0.8</item>
+        <item name="drawableColor">?attr/couiColorPrimary</item>
+        <item name="drawableRadius">@dimen/coui_btn_drawable_radius_large</item>
+        <item name="isShowLoadingText">true</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.Borderless" parent="@style/Widget.COUI.Button.Large">
+        <item name="android:textColor">@color/coui_btn_borderless_text_color</item>
+        <item name="android:background">@null</item>
+        <item name="animEnable">true</item>
+        <item name="animType">1</item>
+        <item name="brightness">1</item>
+        <item name="drawableColor">?attr/couiColorPressBackground</item>
+        <item name="strokeColor">?attr/couiColorDivider</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.ButtonNew" parent="@style/Widget.COUI.Button.Large">
+        <item name="android:textSize">@dimen/coui_btn_text_size</item>
+        <item name="android:textColor">@color/coui_btn_tiny_default_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="disabledColor">@color/coui_button_neutral_color</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.ButtonNew.HalfColor" parent="@style/Widget.COUI.Button.Large.ButtonNew">
+        <item name="android:textColor">@color/coui_btn_tiny_halfcolor_text_color</item>
+        <item name="disabledColor">@color/coui_button_tiny_halfcolor_disable</item>
+        <item name="drawableColor">@color/coui_button_tiny_halfcolor</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.ButtonNew.Secondary" parent="@style/Widget.COUI.Button.Large.ButtonNew">
+        <item name="android:textColor">@color/coui_btn_borderless_text_color</item>
+        <item name="disabledColor">@color/coui_button_neutral_color_disable</item>
+        <item name="drawableColor">@color/coui_button_neutral_color</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.ButtonNew.Translate" parent="@style/Widget.COUI.Button.Large.ButtonNew">
+        <item name="android:textColor">@color/coui_btn_tiny_translate_text_color</item>
+        <item name="disabledColor">@color/coui_button_translate_color</item>
+        <item name="drawableColor">@color/coui_button_translate_color</item>
+        <item name="pressColor">16</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.Light" parent="@style/Widget.COUI.Button.Large">
+        <item name="brightness">0.8</item>
+        <item name="drawableColor">?attr/couiColorSecondary</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.TinyFull" parent="@style/Widget.COUI.Button.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/coui_btn_tiny_default_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="disabledColor">@color/coui_button_neutral_color_disable</item>
+        <item name="drawableRadius">@dimen/coui_btn_drawable_radius_large_tiny</item>
+    </style>
+    <style name="Widget.COUI.Button.Large.TinyFull.Secondary" parent="@style/Widget.COUI.Button.Large.TinyFull">
+        <item name="android:textColor">@color/coui_btn_borderless_text_color</item>
+        <item name="disabledColor">@color/coui_button_neutral_color_disable</item>
+        <item name="drawableColor">@color/coui_button_neutral_color</item>
+    </style>
+    <style name="Widget.COUI.Button.Small" parent="@style/Widget.COUI.Button">
+        <item name="android:textAppearance">@style/couiTextAppearanceButton</item>
+        <item name="android:textSize">@dimen/coui_btn_small_text_size</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:minWidth">@dimen/coui_btn_small_width_min</item>
+        <item name="android:minHeight">@dimen/coui_btn_small_height_min</item>
+        <item name="animEnable">@bool/coui_button_anim_enable</item>
+        <item name="brightness">0.8</item>
+        <item name="drawableColor">?attr/couiColorPrimary</item>
+        <item name="drawableRadius">@dimen/coui_btn_drawable_radius_small</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.Borderless" parent="@style/Widget.COUI.Button.Small">
+        <item name="android:textColor">@color/coui_btn_borderless_text_color</item>
+        <item name="android:background">@null</item>
+        <item name="animEnable">true</item>
+        <item name="animType">1</item>
+        <item name="brightness">1</item>
+        <item name="drawableColor">@color/coui_btn_borderless_color</item>
+        <item name="strokeColor">?attr/couiColorDivider</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.Light" parent="@style/Widget.COUI.Button.Small">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="brightness">0.8</item>
+        <item name="drawableColor">?attr/couiColorSecondary</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.TinySmall" parent="@style/Widget.COUI.Button.Small">
+        <item name="android:textColor">@color/coui_btn_tiny_default_text_color</item>
+        <item name="disabledColor">@color/coui_button_neutral_color_disable</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.TinySmall.HalfColor" parent="@style/Widget.COUI.Button.Small.TinySmall">
+        <item name="android:textColor">@color/coui_btn_tiny_halfcolor_text_color</item>
+        <item name="disabledColor">@color/coui_button_tiny_halfcolor_disable</item>
+        <item name="drawableColor">@color/coui_button_tiny_halfcolor</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.TinySmall.Secondary" parent="@style/Widget.COUI.Button.Small.TinySmall">
+        <item name="android:textColor">@color/coui_btn_borderless_text_color</item>
+        <item name="disabledColor">@color/coui_button_neutral_color_disable</item>
+        <item name="drawableColor">@color/coui_button_neutral_color</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.TinySmall.Translate" parent="@style/Widget.COUI.Button.Small.TinySmall">
+        <item name="android:textColor">@color/coui_btn_tiny_translate_text_color</item>
+        <item name="disabledColor">@color/coui_button_translate_color</item>
+        <item name="drawableColor">@color/coui_button_translate_color</item>
+        <item name="pressColor">16</item>
+    </style>
+    <style name="Widget.COUI.List.Category.Title" parent="@style/Widget.COUI.List.Category">
+        <item name="android:textAppearance">@style/couiTextAppearanceSmallButton</item>
+        <item name="android:textColor">?attr/couiColorSecondNeutral</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:id">@android:id/title</item>
+        <item name="android:paddingLeft">@dimen/coui_preference_category_text_padding_left</item>
+        <item name="android:paddingTop">@dimen/coui_common_category_text_padding_top</item>
+        <item name="android:paddingRight">@dimen/coui_preference_category_text_padding_left</item>
+        <item name="android:paddingBottom">@dimen/coui_common_category_text_padding_bottom</item>
+        <item name="android:minHeight">@dimen/coui_preference_category_text_height</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="preferenceClassificationTextStyle" parent="">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+</resources>

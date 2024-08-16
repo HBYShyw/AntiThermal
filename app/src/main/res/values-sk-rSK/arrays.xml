@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="history_spinner_arrays">
+        <item>Posledné nabitie na 90 % alebo viac</item>
+        <item>Dnes</item>
+        <item>Včera</item>
+    </array>
+    <array name="oplus_data_not_enough_array">
+        <item>Vyčistiť</item>
+        <item>Migrovať na kartu SD</item>
+        <item>Rozumiem</item>
+    </array>
+    <array name="tab_title_arrays">
+        <item>Dnes</item>
+        <item>Včera</item>
+        <item>Predvčerom</item>
+    </array>
+</resources>

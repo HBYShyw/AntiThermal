@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d elem optimalizálható</item>
+        <item quantity="other">%d elem optimalizálható</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d tétel optimalizálva</item>
+        <item quantity="other">%d tétel optimalizálva</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d optimalizálás érhető el</item>
+        <item quantity="other">%d optimalizálás érhető el</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d kiválasztva</item>
+        <item quantity="other">%d kiválasztva</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Automatikusan kikapcsol, ha telefonja %d percen belül nem észlel tölthető eszközt.</item>
+        <item quantity="other">Automatikusan kikapcsol, ha telefonja %d percen belül nem észlel tölthető eszközt.</item>
+    </plurals>
+</resources>

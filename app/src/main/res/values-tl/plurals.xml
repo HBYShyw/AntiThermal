@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_detail_find_optimization">
+        <item quantity="one">%d item ang puwedeng i-optimize</item>
+        <item quantity="other">%d (na) item ang puwedeng i-optimize</item>
+    </plurals>
+    <plurals name="battery_detail_finished_optimization">
+        <item quantity="one">%d item ang na-optimize</item>
+        <item quantity="other">%d (na) item ang na-optimize</item>
+    </plurals>
+    <plurals name="battery_detail_view_optimization">
+        <item quantity="one">%d pag-optimize ang available</item>
+        <item quantity="other">%d (na) pag-optimize ang available</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d bagong notification</item>
+        <item quantity="other">%d na bagong notification</item>
+    </plurals>
+    <plurals name="one_key_select_optimization">
+        <item quantity="one">%d ang napili</item>
+        <item quantity="other">%d ang napili</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d bagong notification</item>
+        <item quantity="other">%d (na) bagong notification</item>
+    </plurals>
+    <plurals name="wait_time_auto_turnoff">
+        <item quantity="one">Awtomatikong mao-off kung walang matutukoy ang iyong telepono na device na kailangang i-charge sa loob ng %d minuto.</item>
+        <item quantity="other">Awtomatikong mao-off kung walang matutukoy ang iyong telepono na device na kailangang i-charge loob ng %d (na) minuto.</item>
+    </plurals>
+</resources>
